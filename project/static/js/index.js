@@ -15,27 +15,51 @@ $(function () {
     });
     //设置两侧导航栏固定位置
     $(window).scroll(function () {
-        if ($(window).scrollTop() >= 600) {
+        if ($(window).scrollTop() >= 1400) {
             $('.asidetools').css('display', 'block');
         } else {
             $('.asidetools').css('display', 'none');
         }
-
+        LeftFloorMouseOut();
     });
     //设置轮播图上面二级菜单的显示与隐藏
-    $('.category').mouseover(function () {
+    $('.category li').mouseover(function () {
         $('.secondkind').css('display', 'block');
-    }).mouseout(function () {
+    });
+    $('.navi').mouseleave(function () {
         $('.secondkind').css('display', 'none');
     })
     //设置鼠标移入侧边栏之后事件及点击侧边栏跳转到相应位置
-    $('.lefttools li').mouseover(function(){
-        $(this).children('a').css('display','none').siblings('div').css({'display':'block','backgroundColor':'#e01222'});
+    $('.lefttools li').mouseover(function () {
+        $(this).children('a').css('display', 'none').siblings('div').css('display', 'block')
+            .parent('li').siblings('li').children('a').css('display', 'block').siblings('div').css('display', 'none');
     });
-    $('.lefttools li').mouseout(function(){
-        $(this).children('div').css('display','none').siblings('a').css('display','block')
+    var len = $('.lefttools li').length;
+    var topHeight = 1400;
+    var floorHeight = 1120;
+    $('.lefttools').mouseout(function () {
+        LeftFloorMouseOut()
     });
-    $('.lefttools li').click(function(){
-        var len = $('.lefttools li').length;
+    $('.lefttools li').each(function (i) {
+        $(this).click(function () {
+
+            $(window).scrollTop(topHeight + floorHeight * i);
+            $(this).children('a').css('display', 'none').siblings('div').css(
+                'display', 'block');
+        });
+
+    })
+    //设置点击返回顶部按钮返回到首页顶部
+    $('.returntop').click(function () {
+        $(window).scrollTop(0)
+        console.log($(window).scrollTop())
     })
 })
+/**
+ * 左侧侧边栏鼠标移出事件
+ */
+function LeftFloorMouseOut() {
+    var LeftFloorLiIndex = Math.floor(($(window).scrollTop() - 1470) / 1050)>=0?Math.floor(($(window).scrollTop() - 1470) / 1050):100;
+    $('.lefttools li').eq(LeftFloorLiIndex).children('a').css('display', 'none').siblings('div').css('display','block')
+        .parent('li').siblings('li').children('a').css('display', 'block').siblings('div').css('display', 'none');
+}

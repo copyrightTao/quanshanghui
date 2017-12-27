@@ -50,11 +50,12 @@
             height: 42px;
             input[type="text"] {
                 height: 38px;
-                width: 450px;
+                width: 440px;
                 border: 2px solid #e01222;
                 float: left;
-                font-size: 24px;
-                color: #000000;
+                font-size: 16px;
+                color: #666666;
+                padding-left: 10px;
             }
             a {
                 height: 42px;
@@ -135,6 +136,9 @@
     height: 543px;
     .w {
         height: 40px;
+        .navi {
+            height: 540px;
+        }
         .category {
             float: left;
             width: 250px;
@@ -150,25 +154,29 @@
                 color: #fffefe;
             }
             >ul {
-                padding-left: 20px;
-                height: 500px;
+                height: 480px;
                 background-color: #4c4c4c;
                 opacity: 0.8;
                 position: relative;
                 z-index: 2;
+                padding-top: 20px;
                 li {
-                    padding-top: 20px;
+                    padding-left: 20px;
                     font-size: 16px;
-                    height: 16px;
+                    height: 30px;
+                    line-height: 30px;
                     color: #fffefe;
                     a {
                         color: #fffefe;
                     }
                 }
+                li:hover {
+                    background-color: #999395;
+                }
             }
             .secondkind {
-                width: 950px;
-                height: 500px;
+                width: 900px;
+                height: 450px;
                 background-color: #f7f7f7;
                 position: absolute;
                 top: 40px;
@@ -553,7 +561,7 @@
                 line-height: 30px;
                 font-size: 23px;
                 color: #fff;
-                
+                background-color: #e01222;
             }
         }
     }
