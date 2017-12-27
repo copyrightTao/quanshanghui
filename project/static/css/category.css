@@ -1,0 +1,129 @@
+.allkinds {
+  height: 330px;
+}
+.allkinds .w {
+  position: relative;
+}
+.allkinds .left {
+  width: 250px;
+  height: 100%;
+  height: 330px;
+  position: absolute;
+  left: 0px;
+}
+.allkinds .left ul {
+  width: 234px;
+  margin: 10px auto;
+}
+.allkinds .left ul li {
+  height: 48px;
+  width: 115px;
+  border: 1px solid #dddddd;
+  float: left;
+  border-bottom: none;
+}
+.allkinds .left ul li:nth-child(even) {
+  border-left: none;
+}
+.allkinds .left ul li:nth-child(n+10) {
+  border-bottom: 1px solid #dddddd;
+}
+.allkinds .left > a {
+  display: block;
+  text-align: center;
+  margin-top: 315px;
+  color: #e10222;
+}
+.allkinds .right {
+  width: 950px;
+  background-color: green;
+  height: 330px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.layui-carousel-ind {
+  top: -35px !important;
+}
+.main {
+  margin-top: 20px;
+}
+.main .title {
+  margin-bottom: 14px;
+}
+.main .title .first_title {
+  font-size: 18px;
+  color: #7d7d7d;
+  line-height: 20px;
+}
+.main .title .first_title:hover {
+  color: #e10222;
+}
+.main .title .second_titile {
+  font-size: 11px;
+  color: #898989;
+}
+.main .left,
+.main .right {
+  height: 1345px;
+}
+.main .left {
+  width: 188px;
+}
+.main .left .yyfs {
+  height: 354px;
+  border: 1px solid #dadada;
+}
+.main .left .yyfs .layui-colla-title {
+  height: 32px;
+  padding-left: 29px;
+  font-size: 14px;
+  line-height: 31px;
+}
+.main .left .yyfs .layui-colla-content {
+  height: 276px;
+  padding: 5px 20px;
+}
+.main .left .yyfs .layui-colla-content li {
+  width: 72px;
+  float: left;
+  text-align: center;
+  line-height: 16px;
+  margin-top: 6px;
+  text-decoration: underline;
+}
+.main .left .yzxlph {
+  height: 978px;
+  border: 1px solid #dadada;
+  margin-top: 11px;
+}
+.main .left .yzxlph dt {
+  height: 32px;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 31px;
+  border-bottom: 1px solid #dadada;
+  color: #959595;
+}
+.main .left .yzxlph dd {
+  width: 188px;
+  height: 213px;
+  border-bottom: 1px solid #dadada;
+  text-align: center;
+}
+.main .left .yzxlph dd img {
+  margin-top: 3px;
+}
+.main .left .yzxlph dd p {
+  padding: 0px 10px;
+  overflow: hidden;
+  font-size: 11px;
+  line-height: 18px;
+}
+.main .left .yzxlph dd span {
+  font-size: 10px;
+  color: #e10222;
+}
+.main .right {
+  width: 998px;
+}

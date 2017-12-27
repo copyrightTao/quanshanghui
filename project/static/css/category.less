@@ -1,0 +1,129 @@
+.allkinds {
+    height: 330px;
+    .w {
+        position: relative;
+    }
+    .left {
+        width: 250px;
+        height: 100%;
+        height: 330px;
+        position: absolute;
+        left: 0px;
+        ul {
+            width: 234px;
+            margin: 10px auto;
+            li {
+                height: 48px;
+                width: 115px;
+                border: 1px solid #dddddd;
+                float: left;
+                border-bottom: none;
+            }
+            li:nth-child(even) {
+                border-left: none;
+            }
+            li:nth-child(n+10) {
+                border-bottom: 1px solid #dddddd;
+            }
+        }
+        >a {
+            display: block;
+            text-align: center;
+            margin-top: 315px;
+            color: #e10222;
+        }
+    }
+    .right {
+        width: 950px;
+        background-color: green;
+        height: 330px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+}
+//调整轮播图样式
+.layui-carousel-ind {
+    top:-35px !important;
+}
+.main {
+    margin-top: 20px;
+    .title {
+        margin-bottom: 14px;
+        .first_title {
+            font-size: 18px;
+            color: #7d7d7d;
+            line-height: 20px;
+        }
+        .first_title:hover {
+            color: #e10222;
+        }
+        .second_titile {
+            font-size: 11px;
+            color: #898989;
+        }
+    }
+    .left, .right {
+        height: 1345px;
+    }
+    .left {
+        width: 188px;
+        .yyfs {
+            height: 354px;
+            border: 1px solid #dadada;
+           .layui-colla-title {
+               height: 32px;
+               padding-left: 29px;
+               font-size: 14px;
+               line-height: 31px;
+           }
+           .layui-colla-content {
+               height: 276px;
+               padding: 5px 20px;
+            li {
+                width: 72px;
+                float: left;
+                text-align: center;
+                line-height: 16px;
+                margin-top: 6px;
+                text-decoration: underline;
+            }
+           } 
+        }
+        .yzxlph {
+            height: 978px;
+            border: 1px solid #dadada;
+            margin-top: 11px;
+            dt {
+                height: 32px;
+                padding-left: 10px;
+                font-size: 14px;
+                line-height: 31px;
+                border-bottom: 1px solid #dadada;
+                color: #959595;
+            }
+            dd {
+                width: 188px;
+                height: 213px;
+                border-bottom: 1px solid #dadada;
+                text-align: center;
+                img {
+                    margin-top: 3px;
+                }
+                p {
+                    padding: 0px 10px;
+                    overflow: hidden;
+                    font-size: 11px;
+                    line-height: 18px;
+                }
+                span {
+                    font-size: 10px;
+                    color: #e10222;
+                }
+            }
+        }
+    }
+    .right {
+        width:998px;
+    }
+}
