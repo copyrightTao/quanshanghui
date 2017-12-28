@@ -14,6 +14,10 @@
     <script src="../../libs/jquery/jquery.js"></script>
     <script src="../../libs/layui/layui.js"></script>
     <script src="../js/category.js"></script>
+    <!--[if lt IE 9]>
+  <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+  <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
 
 <body>
@@ -312,7 +316,593 @@
                 </div>
             </div>
             <!-- 右边大模块 -->
-            <div class="right fr"></div>
+            <div class="right fr">
+                <!-- 商品筛选模块 -->
+                <div class="spsx">
+                    <div class="spsx_title">
+                        <a href="javascript:;">
+                            婴童服饰
+                        </a>
+                        <span>-</span>
+                        <a href="javascript:;">
+                            商品筛选
+                        </a>
+                        <a href="javascript:;" class="reset fr">
+                            重置筛选条件
+                        </a>
+                    </div>
+                    <div class="spsx_content">
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt>适合季节 :</dt>
+                                    <dd>
+                                        <a href="javascript:;" class="changeOrange">不限</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">春季</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">夏季</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">秋季</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">冬季</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">通用</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>面料材质 :</dt>
+                                    <dd>
+                                        <a href="javascript:;" class="changeOrange">不限</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">纯棉</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">80含棉</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">其他</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>价格区间 :</dt>
+                                    <dd>
+                                        <a href="javascript:;" class="changeOrange">不限</a>
+                                    </dd>
+                                    <dd>
+                                        <input type="checkbox" id="min_price">
+                                        <label for="min_price">0-99</label>
+                                    </dd>
+                                    <dd>
+                                        <input type="checkbox" id="second_price">
+                                        <label for="second_price">100-199</label>
+                                    </dd>
+                                    <dd>
+                                        <input type="checkbox" id="middle_price">
+                                        <label for="middle_price">200-299</label>
+                                    </dd>
+                                    <dd>
+                                        <input type="checkbox" id="max_price">
+                                        <label for="max_price">300-399</label>
+                                    </dd>
+                                    <dd>
+                                        <input type="checkbox" id="qctj">
+                                        <label for="qctj">300-399</label>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>款式 :</dt>
+                                    <dd>
+                                        <a href="javascript:;" class="changeOrange">不限</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">长爬服</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">三角爬服</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">蝴蝶衣</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        <div class="more_button">
+                            <a href="javascript:;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <!-- 排序 -->
+                    <div class="sort">
+                        <div class="sort_left fl">
+                            <dl>
+                                <dt>
+                                    排序:
+                                </dt>
+                                <dd>
+                                    <a href="javascript:;" class="changeRed">
+                                        综合排序
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">
+                                        总销量
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">
+                                        好评度
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">
+                                        价格
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">
+                                        上架时间
+                                    </a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="sort_right fr">
+                            <div class="sort_page fl">
+                                <span>1</span>
+                                <span>/2</span>
+                            </div>
+                            <a href="javascript:;" class="page_up fl">上一页</a>
+                            <a href="javascript:;" class="page_next fl">下一页</a>
+                        </div>
+                    </div>
+                    <!-- 促销 -->
+                    <div class="cuxiao">
+                        <dl>
+                            <dt>筛选:</dt>
+                            <dd>
+                                <input type="checkbox" id="cuxiaoshangpin">
+                                <label for="cuxiaoshangpin">促销商品</label>
+                            </dd>
+                        </dl>
+                    </div>
+                    <!-- 正文 -->
+                    <div class="category_main">
+                        <ul>
+                            <li>
+                                <div>
+                                    <a href="javascritp:;">
+                                        <img src="../images/category/main_03.png" alt="">
+                                        <div class="xuxian"></div>
+                                        <p>
+                                            <span>春夏婴幼儿印花纱布蝶衣(粉黄星)66/48</span>
+                                            <i>此商品参加满减800减200活动</i>
+                                        </p>
+                                        <div class="category_price">
+                                            <div class="price fl">$289.00</div>
+                                            <span class="pingjia fr">已有360人评论</span>
+                                        </div>
+                                        <div class="active">
+                                            <img src="../images/category/youyouhui_07.png" alt="" class="youyouhui">
+                                            <img src="../images/category/youzengpin_09.png" alt="" class="youcengpin">
+                                        </div>
+                                    </a>
+                                    <div class="gouwuche">
+                                        <span class="jian fl">
+                                            <img src="../images/category/jian_03.png" alt="">
+                                        </span>
+                                        <input type="text fl" value='1'>
+                                        <span class="jia fl">
+                                            <img src="../images/category/jia_05.png" alt="">
+                                        </span>
+                                        <a href="javascript:;" class="fr">加入购物车</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="javascritp:;">
+                                        <img src="../images/category/main_03.png" alt="">
+                                        <div class="xuxian"></div>
+                                        <p>
+                                            <span>春夏婴幼儿印花纱布蝶衣(粉黄星)66/48</span>
+                                            <i>此商品参加满减800减200活动</i>
+                                        </p>
+                                        <div class="category_price">
+                                            <div class="price fl">$289.00</div>
+                                            <span class="pingjia fr">已有360人评论</span>
+                                        </div>
+                                        <div class="active">
+                                            <img src="../images/category/youyouhui_07.png" alt="" class="youyouhui">
+                                            <img src="../images/category/youzengpin_09.png" alt="" class="youcengpin">
+                                        </div>
+                                    </a>
+                                    <div class="gouwuche">
+                                        <span class="jian fl">
+                                            <img src="../images/category/jian_03.png" alt="">
+                                        </span>
+                                        <input type="text fl" value='1'>
+                                        <span class="jia fl">
+                                            <img src="../images/category/jia_05.png" alt="">
+                                        </span>
+                                        <a href="javascript:;" class="fr">加入购物车</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="javascritp:;">
+                                        <img src="../images/category/main_03.png" alt="">
+                                        <div class="xuxian"></div>
+                                        <p>
+                                            <span>春夏婴幼儿印花纱布蝶衣(粉黄星)66/48</span>
+                                            <i>此商品参加满减800减200活动</i>
+                                        </p>
+                                        <div class="category_price">
+                                            <div class="price fl">$289.00</div>
+                                            <span class="pingjia fr">已有360人评论</span>
+                                        </div>
+                                        <div class="active">
+                                            <img src="../images/category/youyouhui_07.png" alt="" class="youyouhui">
+                                            <img src="../images/category/youzengpin_09.png" alt="" class="youcengpin">
+                                        </div>
+                                    </a>
+                                    <div class="gouwuche">
+                                        <span class="jian fl">
+                                            <img src="../images/category/jian_03.png" alt="">
+                                        </span>
+                                        <input type="text fl" value='1'>
+                                        <span class="jia fl">
+                                            <img src="../images/category/jia_05.png" alt="">
+                                        </span>
+                                        <a href="javascript:;" class="fr">加入购物车</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="javascritp:;">
+                                        <img src="../images/category/main_03.png" alt="">
+                                        <div class="xuxian"></div>
+                                        <p>
+                                            <span>春夏婴幼儿印花纱布蝶衣(粉黄星)66/48</span>
+                                            <i>此商品参加满减800减200活动</i>
+                                        </p>
+                                        <div class="category_price">
+                                            <div class="price fl">$289.00</div>
+                                            <span class="pingjia fr">已有360人评论</span>
+                                        </div>
+                                        <div class="active">
+                                            <img src="../images/category/youyouhui_07.png" alt="" class="youyouhui">
+                                            <img src="../images/category/youzengpin_09.png" alt="" class="youcengpin">
+                                        </div>
+                                    </a>
+                                    <div class="gouwuche">
+                                        <span class="jian fl">
+                                            <img src="../images/category/jian_03.png" alt="">
+                                        </span>
+                                        <input type="text fl" value='1'>
+                                        <span class="jia fl">
+                                            <img src="../images/category/jia_05.png" alt="">
+                                        </span>
+                                        <a href="javascript:;" class="fr">加入购物车</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="javascritp:;">
+                                        <img src="../images/category/main_03.png" alt="">
+                                        <div class="xuxian"></div>
+                                        <p>
+                                            <span>春夏婴幼儿印花纱布蝶衣(粉黄星)66/48</span>
+                                            <i>此商品参加满减800减200活动</i>
+                                        </p>
+                                        <div class="category_price">
+                                            <div class="price fl">$289.00</div>
+                                            <span class="pingjia fr">已有360人评论</span>
+                                        </div>
+                                        <div class="active">
+                                            <img src="../images/category/youyouhui_07.png" alt="" class="youyouhui">
+                                            <img src="../images/category/youzengpin_09.png" alt="" class="youcengpin">
+                                        </div>
+                                    </a>
+                                    <div class="gouwuche">
+                                        <span class="jian fl">
+                                            <img src="../images/category/jian_03.png" alt="">
+                                        </span>
+                                        <input type="text fl" value='1'>
+                                        <span class="jia fl">
+                                            <img src="../images/category/jia_05.png" alt="">
+                                        </span>
+                                        <a href="javascript:;" class="fr">加入购物车</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="javascritp:;">
+                                        <img src="../images/category/main_03.png" alt="">
+                                        <div class="xuxian"></div>
+                                        <p>
+                                            <span>春夏婴幼儿印花纱布蝶衣(粉黄星)66/48</span>
+                                            <i>此商品参加满减800减200活动</i>
+                                        </p>
+                                        <div class="category_price">
+                                            <div class="price fl">$289.00</div>
+                                            <span class="pingjia fr">已有360人评论</span>
+                                        </div>
+                                        <div class="active">
+                                            <img src="../images/category/youyouhui_07.png" alt="" class="youyouhui">
+                                            <img src="../images/category/youzengpin_09.png" alt="" class="youcengpin">
+                                        </div>
+                                    </a>
+                                    <div class="gouwuche">
+                                        <span class="jian fl">
+                                            <img src="../images/category/jian_03.png" alt="">
+                                        </span>
+                                        <input type="text fl" value='1'>
+                                        <span class="jia fl">
+                                            <img src="../images/category/jia_05.png" alt="">
+                                        </span>
+                                        <a href="javascript:;" class="fr">加入购物车</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="javascritp:;">
+                                        <img src="../images/category/main_03.png" alt="">
+                                        <div class="xuxian"></div>
+                                        <p>
+                                            <span>春夏婴幼儿印花纱布蝶衣(粉黄星)66/48</span>
+                                            <i>此商品参加满减800减200活动</i>
+                                        </p>
+                                        <div class="category_price">
+                                            <div class="price fl">$289.00</div>
+                                            <span class="pingjia fr">已有360人评论</span>
+                                        </div>
+                                        <div class="active">
+                                            <img src="../images/category/youyouhui_07.png" alt="" class="youyouhui">
+                                            <img src="../images/category/youzengpin_09.png" alt="" class="youcengpin">
+                                        </div>
+                                    </a>
+                                    <div class="gouwuche">
+                                        <span class="jian fl">
+                                            <img src="../images/category/jian_03.png" alt="">
+                                        </span>
+                                        <input type="text fl" value='1'>
+                                        <span class="jia fl">
+                                            <img src="../images/category/jia_05.png" alt="">
+                                        </span>
+                                        <a href="javascript:;" class="fr">加入购物车</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="javascritp:;">
+                                        <img src="../images/category/main_03.png" alt="">
+                                        <div class="xuxian"></div>
+                                        <p>
+                                            <span>春夏婴幼儿印花纱布蝶衣(粉黄星)66/48</span>
+                                            <i>此商品参加满减800减200活动</i>
+                                        </p>
+                                        <div class="category_price">
+                                            <div class="price fl">$289.00</div>
+                                            <span class="pingjia fr">已有360人评论</span>
+                                        </div>
+                                        <div class="active">
+                                            <img src="../images/category/youyouhui_07.png" alt="" class="youyouhui">
+                                            <img src="../images/category/youzengpin_09.png" alt="" class="youcengpin">
+                                        </div>
+                                    </a>
+                                    <div class="gouwuche">
+                                        <span class="jian fl">
+                                            <img src="../images/category/jian_03.png" alt="">
+                                        </span>
+                                        <input type="text fl" value='1'>
+                                        <span class="jia fl">
+                                            <img src="../images/category/jia_05.png" alt="">
+                                        </span>
+                                        <a href="javascript:;" class="fr">加入购物车</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="javascritp:;">
+                                        <img src="../images/category/main_03.png" alt="">
+                                        <div class="xuxian"></div>
+                                        <p>
+                                            <span>春夏婴幼儿印花纱布蝶衣(粉黄星)66/48</span>
+                                            <i>此商品参加满减800减200活动</i>
+                                        </p>
+                                        <div class="category_price">
+                                            <div class="price fl">$289.00</div>
+                                            <span class="pingjia fr">已有360人评论</span>
+                                        </div>
+                                        <div class="active">
+                                            <img src="../images/category/youyouhui_07.png" alt="" class="youyouhui">
+                                            <img src="../images/category/youzengpin_09.png" alt="" class="youcengpin">
+                                        </div>
+                                    </a>
+                                    <div class="gouwuche">
+                                        <span class="jian fl">
+                                            <img src="../images/category/jian_03.png" alt="">
+                                        </span>
+                                        <input type="text fl" value='1'>
+                                        <span class="jia fl">
+                                            <img src="../images/category/jia_05.png" alt="">
+                                        </span>
+                                        <a href="javascript:;" class="fr">加入购物车</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="javascritp:;">
+                                        <img src="../images/category/main_03.png" alt="">
+                                        <div class="xuxian"></div>
+                                        <p>
+                                            <span>春夏婴幼儿印花纱布蝶衣(粉黄星)66/48</span>
+                                            <i>此商品参加满减800减200活动</i>
+                                        </p>
+                                        <div class="category_price">
+                                            <div class="price fl">$289.00</div>
+                                            <span class="pingjia fr">已有360人评论</span>
+                                        </div>
+                                        <div class="active">
+                                            <img src="../images/category/youyouhui_07.png" alt="" class="youyouhui">
+                                            <img src="../images/category/youzengpin_09.png" alt="" class="youcengpin">
+                                        </div>
+                                    </a>
+                                    <div class="gouwuche">
+                                        <span class="jian fl">
+                                            <img src="../images/category/jian_03.png" alt="">
+                                        </span>
+                                        <input type="text fl" value='1'>
+                                        <span class="jia fl">
+                                            <img src="../images/category/jia_05.png" alt="">
+                                        </span>
+                                        <a href="javascript:;" class="fr">加入购物车</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="javascritp:;">
+                                        <img src="../images/category/main_03.png" alt="">
+                                        <div class="xuxian"></div>
+                                        <p>
+                                            <span>春夏婴幼儿印花纱布蝶衣(粉黄星)66/48</span>
+                                            <i>此商品参加满减800减200活动</i>
+                                        </p>
+                                        <div class="category_price">
+                                            <div class="price fl">$289.00</div>
+                                            <span class="pingjia fr">已有360人评论</span>
+                                        </div>
+                                        <div class="active">
+                                            <img src="../images/category/youyouhui_07.png" alt="" class="youyouhui">
+                                            <img src="../images/category/youzengpin_09.png" alt="" class="youcengpin">
+                                        </div>
+                                    </a>
+                                    <div class="gouwuche">
+                                        <span class="jian fl">
+                                            <img src="../images/category/jian_03.png" alt="">
+                                        </span>
+                                        <input type="text fl" value='1'>
+                                        <span class="jia fl">
+                                            <img src="../images/category/jia_05.png" alt="">
+                                        </span>
+                                        <a href="javascript:;" class="fr">加入购物车</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="javascritp:;">
+                                        <img src="../images/category/main_03.png" alt="">
+                                        <div class="xuxian"></div>
+                                        <p>
+                                            <span>春夏婴幼儿印花纱布蝶衣(粉黄星)66/48</span>
+                                            <i>此商品参加满减800减200活动</i>
+                                        </p>
+                                        <div class="category_price">
+                                            <div class="price fl">$289.00</div>
+                                            <span class="pingjia fr">已有360人评论</span>
+                                        </div>
+                                        <div class="active">
+                                            <img src="../images/category/youyouhui_07.png" alt="" class="youyouhui">
+                                            <img src="../images/category/youzengpin_09.png" alt="" class="youcengpin">
+                                        </div>
+                                    </a>
+                                    <div class="gouwuche">
+                                        <span class="jian fl">
+                                            <img src="../images/category/jian_03.png" alt="">
+                                        </span>
+                                        <input type="text fl" value='1'>
+                                        <span class="jia fl">
+                                            <img src="../images/category/jia_05.png" alt="">
+                                        </span>
+                                        <a href="javascript:;" class="fr">加入购物车</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="page_num">
+                            <div>
+                                <div class="totle_page">
+                                    <span>1</span>
+                                    <span>/共</span>
+                                    <span>5</span>
+                                    <span>页</span>
+                                </div>
+                                <ul>
+                                    <li class="first_page">
+                                        <a href="javascript:;" class=" changeRed">
+                                            首页
+                                        </a>
+                                    </li>
+                                    <li class="up_page">
+                                        <a href="javascript:;">
+                                            上一页
+                                        </a>
+                                    </li>
+                                    <li class="page_number">
+                                        <a href="javascript:;">
+                                            1
+                                        </a>
+                                    </li>
+                                    <li class="page_number">
+                                        <a href="javascript:;">
+                                            2
+                                        </a>
+                                    </li>
+                                    <li class="page_number">
+                                        <a href="javascript:;">
+                                            3
+                                        </a>
+                                    </li>
+                                    <li class="page_number">
+                                        <a href="javascript:;">
+                                            4
+                                        </a>
+                                    </li>
+                                    <li class="page_number">
+                                        <a href="javascript:;">
+                                            5
+                                        </a>
+                                    </li>
+                                    <li class="next_page">
+                                        <a href="javascript:;">
+                                            下一页
+                                        </a>
+                                    </li>
+                                    <li class="last_page">
+                                        <a href="javascript:;">
+                                            尾页
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

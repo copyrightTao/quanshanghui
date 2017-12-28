@@ -17,7 +17,7 @@ $(function () {
     $('.category').mouseover(function(){
         $('.category ul').css('display','block');
         $('.layui-carousel-ind').css('top','-550px');
-        $('.layui-carousel > [carousel-item]').css('top','-498px')
+        document.querySelector('#test1 > div').style.top = 0;
     })
     //设置轮播图上面二级菜单的显示与隐藏
     $('.category li').mouseover(function () {
