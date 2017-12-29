@@ -3,52 +3,105 @@
     height: 180px;
     background-color: #0d0d0d;
     text-align: center;
-  }
-  .footer .ppzp {
+}
+
+.footer .ppzp {
     padding-bottom: 20px;
     border-bottom: 1px solid #747474;
     height: 70px;
-  }
-  .footer .ppzp ul {
+}
+
+.footer .ppzp ul {
     width: 500px;
     margin: 0 auto;
-  }
-  .footer .ppzp ul li {
+}
+
+.footer .ppzp ul li {
     height: 25px;
     float: left;
     margin-right: 38px;
     margin-top: 44px;
     font-size: 13px;
-  }
-  .footer .ppzp ul li img {
+}
+
+.footer .ppzp ul li img {
     vertical-align: bottom;
-  }
-  .footer .ppzp ul li i {
+}
+
+.footer .ppzp ul li i {
     color: #e05a5a;
-  }
-  .footer .ppzp ul li span {
+}
+
+.footer .ppzp ul li span {
     color: #bebebe;
-  }
-  .footer .returnindex {
+}
+
+.footer .returnindex {
     margin: 0 auto;
     margin-top: 30px;
     width: 525px;
     height: 20px;
-  }
-  .footer .returnindex li {
+}
+
+.footer .returnindex li {
     float: left;
     margin-right: 18px;
     font-size: 12px;
-  }
-  .footer .returnindex li a {
+}
+
+.footer .returnindex li a {
     color: #666666;
-  }
-  .footer .returnindex li:last-child {
+}
+
+.footer .returnindex li:last-child {
     margin-right: 0px;
-  }
-  .footer .copyright {
+}
+
+.footer .copyright {
     color: #666666;
     text-align: center;
     font-size: 12px;
-  }
-  
+}
+
+/* .asidetools {
+    display: none;
+} */
+
+.asidetools li {
+    width: 78px;
+    height: 78px;
+    background-color: #c9c9c9;
+    text-align: center;
+    line-height: 78px;
+    margin-top: 1px;
+}
+.asidetools .righttools {
+    position: fixed;
+    top: 400px;
+}
+.asidetools .righttools {
+    right: 260px;
+}
+
+.asidetools .righttools li:hover {
+    background-color: #e01222;
+}
+.asidetools .righttools a {
+    display: block;
+    width: 78px;
+    height: 78px;
+    color: #ffffff;
+}
+.asidetools .righttools img {
+    vertical-align: top;
+    margin-top: 12px;
+}
+.asidetools .righttools span {
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: -20px;
+}
+.asidetools .righttools .returntop img {
+    margin-top: 30px;
+}

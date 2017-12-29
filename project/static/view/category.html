@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/category.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <script src="../../libs/jquery/jquery.js"></script>
     <script src="../../libs/layui/layui.js"></script>
     <script src="../js/category.js"></script>
+
     <!--[if lt IE 9]>
   <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
   <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
@@ -126,7 +128,7 @@
 
     </div>
     <!-- 主体模块 -->
-    <div class="main">
+    <div class="main clearfix">
         <div class="w">
             <!-- 标题 -->
             <div class="title">
@@ -373,30 +375,30 @@
                                     </dd>
                                 </dl>
                             </li>
-                            <li>
+                            <li class="price_section">
                                 <dl>
                                     <dt>价格区间 :</dt>
                                     <dd>
                                         <a href="javascript:;" class="changeOrange">不限</a>
                                     </dd>
                                     <dd>
-                                        <input type="checkbox" id="min_price">
+                                        <input type="checkbox" id="min_price" name="price">
                                         <label for="min_price">0-99</label>
                                     </dd>
                                     <dd>
-                                        <input type="checkbox" id="second_price">
+                                        <input type="checkbox" id="second_price" name="price">
                                         <label for="second_price">100-199</label>
                                     </dd>
                                     <dd>
-                                        <input type="checkbox" id="middle_price">
+                                        <input type="checkbox" id="middle_price" name="price">
                                         <label for="middle_price">200-299</label>
                                     </dd>
                                     <dd>
-                                        <input type="checkbox" id="max_price">
+                                        <input type="checkbox" id="max_price" name="price">
                                         <label for="max_price">300-399</label>
                                     </dd>
                                     <dd>
-                                        <input type="checkbox" id="qctj">
+                                        <input type="checkbox" id="qctj" name="price">
                                         <label for="qctj">300-399</label>
                                     </dd>
                                 </dl>
@@ -418,6 +420,109 @@
                                     </dd>
                                 </dl>
                             </li>
+                            <li>
+                                <dl>
+                                    <dt>款式 :</dt>
+                                    <dd>
+                                        <a href="javascript:;" class="changeOrange">不限</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">长爬服</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">三角爬服</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">蝴蝶衣</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>款式 :</dt>
+                                    <dd>
+                                        <a href="javascript:;" class="changeOrange">不限</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">长爬服</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">三角爬服</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">蝴蝶衣</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>款式 :</dt>
+                                    <dd>
+                                        <a href="javascript:;" class="changeOrange">不限</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">长爬服</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">三角爬服</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">蝴蝶衣</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>款式 :</dt>
+                                    <dd>
+                                        <a href="javascript:;" class="changeOrange">不限</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">长爬服</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">三角爬服</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">蝴蝶衣</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>款式 :</dt>
+                                    <dd>
+                                        <a href="javascript:;" class="changeOrange">不限</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">长爬服</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">三角爬服</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">蝴蝶衣</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>款式 :</dt>
+                                    <dd>
+                                        <a href="javascript:;" class="changeOrange">不限</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">长爬服</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">三角爬服</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">蝴蝶衣</a>
+                                    </dd>
+                                </dl>
+                            </li>
+
                         </ul>
                         <div class="more_button">
                             <a href="javascript:;">
@@ -425,7 +530,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="content">
+                <div class="content clearfix">
                     <!-- 排序 -->
                     <div class="sort">
                         <div class="sort_left fl">
@@ -905,6 +1010,9 @@
             </div>
         </div>
     </div>
+    <script src="../js/common/aside.js"></script>
+    <script src="../js/common/footer.js"></script>
+    <script src="../js/common/common.js"></script>
 </body>
 
 </html>

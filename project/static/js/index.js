@@ -13,15 +13,6 @@ $(function () {
             //,anim: 'updown' //切换动画方式
         });
     });
-    //设置两侧导航栏固定位置
-    $(window).scroll(function () {
-        if ($(window).scrollTop() >= 1400) {
-            $('.asidetools').css('display', 'block');
-        } else {
-            $('.asidetools').css('display', 'none');
-        }
-        LeftFloorMouseOut();
-    });
     //设置轮播图上面二级菜单的显示与隐藏
     $('.category li').mouseover(function () {
         $('.secondkind').css('display', 'block');
@@ -29,7 +20,7 @@ $(function () {
     $('.navi').mouseleave(function () {
         $('.secondkind').css('display', 'none');
     })
-    //设置鼠标移入侧边栏之后事件及点击侧边栏跳转到相应位置
+    //设置鼠标移入左侧边栏之后事件及点击侧边栏跳转到相应位置
     $('.lefttools li').mouseover(function () {
         $(this).children('a').css('display', 'none').siblings('div').css('display', 'block')
             .parent('li').siblings('li').children('a').css('display', 'block').siblings('div').css('display', 'none');
