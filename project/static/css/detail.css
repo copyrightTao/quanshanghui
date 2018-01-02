@@ -1,0 +1,317 @@
+.mianbaoxie {
+  height: 58px;
+  position: absolute;
+  left: 370px;
+  top: 243px;
+}
+.mianbaoxie a,
+.mianbaoxie span {
+  float: left;
+  line-height: 58px;
+  font-size: 13px;
+  color: #5b5b5b;
+}
+.mianbaoxie a:hover {
+  color: #e10222;
+}
+.goumai {
+  height: 498px;
+  width: 1198px;
+  border: 1px solid #d9d9d9;
+  margin-top: 58px;
+  margin-bottom: 18px;
+}
+.goumai div {
+  float: left;
+}
+.goumai .goumai_left {
+  margin-left: 20px;
+  height: 450px;
+  width: 402px;
+  margin-right: 30px;
+  margin-top: 20px;
+  position: relative;
+}
+.goumai .goumai_left .big_img {
+  position: relative;
+}
+.goumai .goumai_left .big_img li {
+  border: 1px solid #d9d9d9;
+  height: 345px;
+  width: 400px;
+  position: absolute;
+}
+.goumai .goumai_left .big_img .displayNone {
+  display: none;
+}
+.goumai .goumai_left .small_img {
+  position: relative;
+  top: 370px;
+  left: 16px;
+}
+.goumai .goumai_left .small_img li {
+  float: left;
+  width: 78px;
+  height: 78px;
+  border: 1px solid #d9d9d9;
+  margin-left: 10px;
+}
+.goumai .goumai_left .left_button,
+.goumai .goumai_left .right_button {
+  position: absolute;
+  bottom: 30px;
+}
+.goumai .goumai_left .left_button {
+  left: 0px;
+}
+.goumai .goumai_left .right_button {
+  right: 0px;
+}
+.goumai .goumai_middle {
+  width: 460px;
+  height: 450px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.goumai .goumai_middle .middle_title {
+  color: #4d4d4d;
+  font-size: 19px;
+}
+.goumai .goumai_middle .goodsNum {
+  line-height: 44px;
+}
+.goumai .goumai_middle .topxian {
+  width: 100%;
+}
+.goumai .goumai_middle .price {
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+.goumai .goumai_middle .price span,
+.goumai .goumai_middle .price i {
+  float: left;
+  color: #c70000;
+}
+.goumai .goumai_middle .price .shangchengjia {
+  font-size: 20px;
+  position: relative;
+  bottom: 7px;
+  margin-right: 14px;
+}
+.goumai .goumai_middle .price .yuanjia {
+  text-decoration: line-through;
+}
+.goumai .goumai_middle .price .pingfen {
+  margin-left: 95px;
+}
+.goumai .goumai_middle .shichangjia {
+  width: 100%;
+}
+.goumai .goumai_middle .shichangjia .xingji {
+  margin-left: 210px;
+}
+.goumai .goumai_middle .bottomxian {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.goumai .goumai_middle .color {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.goumai .goumai_middle .color li {
+  float: left;
+  margin-right: 10px;
+  line-height: 28px;
+  height: 28px;
+}
+.goumai .goumai_middle .color li img {
+  display: block;
+}
+.goumai .goumai_middle .shuliang {
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.goumai .goumai_middle .shuliang span,
+.goumai .goumai_middle .shuliang i {
+  float: left;
+}
+.goumai .goumai_middle .shuliang > span {
+  margin-right: 10px;
+}
+.goumai .goumai_middle .shuliang .gouwuche {
+  position: relative;
+}
+.goumai .goumai_middle .shuliang .gouwuche input {
+  display: inline-block;
+  height: 23px;
+  width: 23px;
+  line-height: 23px;
+  text-align: center;
+  border: 1px solid #d9d9d9;
+}
+.goumai .goumai_middle .shuliang .gouwuche a {
+  position: absolute;
+  right: -16px;
+  display: block;
+  height: 12px;
+  width: 12px;
+  line-height: 12px;
+}
+.goumai .goumai_middle .shuliang .gouwuche .jia {
+  top: -1px;
+}
+.goumai .goumai_middle .shuliang .gouwuche .jian {
+  bottom: 1px;
+}
+.goumai .goumai_middle .shuliang i {
+  margin-left: 30px;
+}
+.goumai .goumai_middle .kucun {
+  width: 100%;
+  margin-bottom: 13px;
+}
+.goumai .goumai_middle .kucun span {
+  margin-right: 20px;
+}
+.goumai .goumai_middle .quehuo {
+  display: block;
+  margin-bottom: 12px;
+  margin-left: 55px;
+}
+.goumai .goumai_middle > a {
+  display: block;
+  width: 146px;
+  margin-left: 55px;
+  color: #c70000;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.goumai .goumai_middle .addgouwuche a {
+  float: left;
+  line-height: 40px;
+}
+.goumai .goumai_middle .addgouwuche .jiarugouwuche {
+  display: block;
+  width: 180px;
+  height: 40px;
+  background-color: #c70000;
+  margin-right: 54px;
+}
+.goumai .goumai_middle .addgouwuche .jiarugouwuche img {
+  margin-left: 22px;
+  margin-right: 18px;
+  margin-bottom: 5px;
+}
+.goumai .goumai_middle .addgouwuche .jiarugouwuche span {
+  font-size: 17px;
+  color: #fff;
+}
+.goumai .goumai_middle .addgouwuche .shoucang {
+  margin-right: 19px;
+}
+.goumai .goumai_middle .addgouwuche .shoucang img {
+  margin-right: 10px;
+}
+.goumai .goumai_middle .addgouwuche .jiagoucang img {
+  margin-right: 10px;
+}
+.goumai .goumai_right {
+  width: 250px;
+  height: 480px;
+  margin-top: 7px;
+  border: 1px solid #c70000;
+}
+.goumai .goumai_right > img {
+  margin-top: 19px;
+  margin-left: 44px;
+  margin-bottom: 28px;
+}
+.goumai .goumai_right .zonghe {
+  margin-left: 16px;
+  margin-bottom: 7px;
+}
+.goumai .goumai_right .zonghe p {
+  color: #ba1b21;
+}
+.goumai .goumai_right .zonghe li {
+  float: left;
+  margin-right: 3px;
+}
+.goumai .goumai_right .jianjie {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 10px;
+}
+.goumai .goumai_right .jianjie .title {
+  color: #ba1b21;
+  width: 100%;
+}
+.goumai .goumai_right .jianjie p {
+  color: #666666;
+  line-height: 21px;
+}
+.goumai .goumai_right .gongsi {
+  background-color: #ffebeb;
+  padding: 25px 20px;
+  padding-bottom: 45px;
+}
+.goumai .goumai_right .gongsi .name {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 11px;
+  color: #c3474b;
+}
+.goumai .goumai_right .gongsi .address {
+  color: #c3474b;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+.goumai .goumai_right .gongsi a {
+  float: left;
+  font-size: 15px;
+  color: #222222;
+}
+.goumai .goumai_right .gongsi .jinru {
+  margin-right: 20px;
+}
+.tuijiangoods img,
+.tuijiangoods a {
+  float: left;
+}
+.tuijiangoods > a {
+  height: 35px;
+  margin-top: 5px;
+  text-align: right;
+  padding-right: 5px;
+  line-height: 35px;
+  color: #787878;
+  background-color: #f2f2f2;
+  width: 1110px;
+  margin-bottom: 21px;
+}
+.tuijiangoods li {
+  float: left;
+  width: 158px;
+  height: 225px;
+  margin-right: 24px;
+  padding: 10px;
+  border: 1px solid #d9d9d9;
+}
+.tuijiangoods li img {
+  margin-bottom: 7px;
+}
+.tuijiangoods li div {
+  line-height: 18px;
+  font-size: 11px;
+  color: #4d4d4d;
+  margin-bottom: 5px;
+}
+.tuijiangoods li span {
+  color: #d40000;
+  font-size: 14px;
+  margin-right: 47px;
+}
+.tuijiangoods li:last-child {
+  margin-right: 0px;
+}

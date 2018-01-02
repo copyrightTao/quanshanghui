@@ -12,7 +12,7 @@ $('.navi').mouseleave(function () {
 $('.category').mouseover(function () {
     $('.category ul').css('display', 'block');
     $('.layui-carousel-ind').css('top', '-550px');
-    document.querySelector('#test1 > div').style.top = 0;
+    
 })
 //设置点击返回顶部按钮返回到首页顶部
 $('.returntop').click(function () {
