@@ -14,6 +14,9 @@ $(function () {
             //,anim: 'updown' //切换动画方式
         });
     });
+    $('.category').mouseover(function () {
+        document.querySelector('#test1 > div').style.top = 0;
+    })
     //商品筛选模块逻辑
     $('.spsx_content dd a').click(function () {
         $(this).addClass('changeOrange').parent().siblings('dd').find('a').removeClass('changeOrange');
@@ -42,26 +45,26 @@ $(function () {
         if ($('.spsx_content').css('height') == '80px') {
             $('.spsx_content').css('height', height + 'px')
             $(this).find('a').css('background', "url('../images/category/shouqi_03.png') no-repeat center center")
-        }else {
+        } else {
             $('.spsx_content').css('height', '80px');
             $(this).find('a').css('background', "url('../images/category/more_03.png') no-repeat center center")
         }
     });
     //点击排序按钮的动态效果
-    $('.sort_left dd a ').click(function(){
+    $('.sort_left dd a ').click(function () {
         $(this).addClass('changeRed').parent().siblings('dd').find('a').removeClass('changeRed')
     })
     //点击购物车加减按钮效果
-    $('.gouwuche .jian').click(function(){
-        if($(this).siblings('input').val() > 1){
-            var newVal = parseInt($(this).siblings('input').val())-1;
+    $('.gouwuche .jian').click(function () {
+        if ($(this).siblings('input').val() > 1) {
+            var newVal = parseInt($(this).siblings('input').val()) - 1;
             $(this).siblings('input').val(newVal)
-        }else {
+        } else {
             return false;
         }
     })
-    $('.gouwuche .jia').click(function(){
-        var newVal = parseInt($(this).siblings('input').val())+1;
+    $('.gouwuche .jia').click(function () {
+        var newVal = parseInt($(this).siblings('input').val()) + 1;
         $(this).siblings('input').val(newVal)
     })
 })

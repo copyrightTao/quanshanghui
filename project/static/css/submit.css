@@ -1,0 +1,73 @@
+body {
+  font-size: 14px;
+}
+.submit_main .xinxi {
+  height: 62px;
+  line-height: 62px;
+  margin-bottom: 20px;
+}
+.submit_main .xinxi span {
+  font-size: 18px;
+  color: #646464;
+  line-height: 62px;
+}
+.submit_main .xinxi img {
+  margin-top: 20px;
+}
+.submit_main .zhifufangshi {
+  border: 1px solid #dadada;
+  margin-bottom: 60px;
+}
+.submit_main .zhifufangshi div:first-child {
+  margin-top: 15px;
+  margin-left: 17px;
+  color: #666666;
+  margin-bottom: 31px;
+}
+.submit_main .zhifufangshi input {
+  margin-left: 27px;
+  margin-right: 14px;
+}
+.submit_main .zhifufangshi .hengxianx {
+  width: 1194px;
+  margin: 0 auto;
+  height: 2px;
+  background-color: #d5d5d5;
+  margin-top: 8px;
+}
+.submit_main .zhifufangshi .zhiwei {
+  margin-top: 12px;
+  margin-left: 58px;
+  height: 48px;
+  margin-bottom: 39px;
+}
+.submit_main .zhifufangshi .zhiwei li {
+  cursor: pointer;
+  float: left;
+  width: 100px;
+  height: 30px;
+  padding: 8px 15px;
+  border: 1px solid #dadada;
+  margin-right: 8px;
+}
+.submit_main .zhifufangshi .allBank {
+  margin: 19px 340px 96px 55px;
+  height: 240px;
+}
+.submit_main .zhifufangshi .allBank li {
+  float: left;
+  cursor: pointer;
+  height: 24px;
+  width: 120px;
+  padding: 7px 34px;
+  border: 1px solid #b0c2e1;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.submit_main a {
+  height: 38px;
+  display: block;
+}
+.submit_main a img {
+  float: right;
+}

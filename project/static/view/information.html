@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../libs/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/information.css">
+    <script src="../../libs/jquery/jquery.js"></script>
+    <script src="../../libs/layui/layui.js"></script>
+    <script src="../js/information.js"></script>
+    <script src="../js/common/jsAddresss.js"></script>
+</head>
+
+<body>
+    <script src="../js/common/header.js"></script>
+    <div class="information_main">
+        <div class="w">
+            <div class="xinxi">
+                <span class="fl">我的购物车</span>
+                <img class="fr" src="../images/information/steps_03.png" alt="">
+            </div>
+            <div class="address">
+                <div class="title">
+                    收货人信息
+                </div>
+                <div class="address_main">
+                    <ul>
+                        <li>
+                            <input type="radio" id="18032145678">
+                            <label for="18032145678">
+                                <span class="name">韩寒</span>
+                                <span class="phone">18032145678</span>
+                                <span class="userAddress">
+                                    北京市海淀区上地三街9号
+                                </span>
+                                <a href="javascript:;" class="hide delete fr">删除</a>
+                                <a href="javascript:;" class="hide bianji fr">编辑</a>
+                            </label>
+                        </li>
+                        <li>
+                            <input type="radio" id="180321456789">
+                            <label for="180321456789">
+                                <span class="name">韩寒</span>
+                                <span class="phone">18032145678</span>
+                                <span class="userAddress">
+                                    北京市海淀区上地三街9号
+                                </span>
+                                <a href="javascript:;" class="hide delete fr">删除</a>
+                                <a href="javascript:;" class="hide bianji fr">编辑</a>
+                            </label>
+                        </li>
+                        <li class="lastLi">
+                            <input type="radio" id="1803214567890">
+                            <label for="1803214567890">
+                                <span class="name">使用新地址</span>
+                            </label>
+                        </li>
+                    </ul>
+                    <div class="newAddress">
+                        <div class="user_info">
+                            <span>收货人:</span>
+                            <input type="text" class="shouhuoren">
+                            <input type="radio" name="sex" id="male" />
+                            <label for="male">先生</label>
+                            <input type="radio" name="sex" id="female" />
+                            <label for="female">女士</label>
+                        </div>
+                        <div class="diqu">
+                            <span>所在地区:</span>
+                            <select id="cmbProvince" name="cmbProvince"></select>
+                            <select id="cmbCity" name="cmbCity"></select>
+                            <select id="cmbArea" name="cmbArea"></select>
+                        </div>
+                        <div class="moreAdd">
+                            <span>详细地址:</span>
+                            <input type="text" class="moreAddress">
+                        </div>
+                        <div class="phoneNum">
+                            <span>手机号码:</span>
+                            <input type="text" class="phoneNumber">
+                        </div>
+                        <a href="javascript:;">
+                            <img src="../images/information/querendizhi_03.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="paykind">
+                <div class="title">
+                    支付方式
+                </div>
+                <ul>
+                    <li>
+                        货到付款
+                    </li>
+                    <li>
+                        线上支付
+                    </li>
+                    <li>
+                        网银支付
+                    </li>
+                    <li>
+                        货到付款
+                    </li>
+                </ul>
+            </div>
+            <div class="list">
+                <div class="title">
+                    配送清单
+                </div>
+                <ul>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../images/information/goods_07.png" alt="">
+                            <p>鸭鸭(YAYA)秋冬女装中长款毛领加厚修身羽绒服女B-3933 黑色 165/88A</p>
+                            <span>X1</span>
+                            <i>$199.00</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../images/information/goods_07.png" alt="">
+                            <p>鸭鸭(YAYA)秋冬女装中长款毛领加厚修身羽绒服女B-3933 黑色 165/88A</p>
+                            <span>X1</span>
+                            <i>$199.00</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../images/information/goods_07.png" alt="">
+                            <p>鸭鸭(YAYA)秋冬女装中长款毛领加厚修身羽绒服女B-3933 黑色 165/88A</p>
+                            <span>X1</span>
+                            <i>$199.00</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../images/information/goods_07.png" alt="">
+                            <p>鸭鸭(YAYA)秋冬女装中长款毛领加厚修身羽绒服女B-3933 黑色 165/88A</p>
+                            <span>X1</span>
+                            <i>$199.00</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../images/information/goods_07.png" alt="">
+                            <p>鸭鸭(YAYA)秋冬女装中长款毛领加厚修身羽绒服女B-3933 黑色 165/88A</p>
+                            <span>X1</span>
+                            <i>$199.00</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../images/information/goods_07.png" alt="">
+                            <p>鸭鸭(YAYA)秋冬女装中长款毛领加厚修身羽绒服女B-3933 黑色 165/88A</p>
+                            <span>X1</span>
+                            <i>$199.00</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../images/information/goods_07.png" alt="">
+                            <p>鸭鸭(YAYA)秋冬女装中长款毛领加厚修身羽绒服女B-3933 黑色 165/88A</p>
+                            <span>X1</span>
+                            <i>$199.00</i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="list_foot">
+                    <span class="fl">共计:6件</span>
+                    <a href="javascript:;" class="fr">返回修改购物车</a>
+                </div>
+            </div>
+            <div class="gotopay">
+                <ul>
+                    <li>
+                        <div>使用优惠券抵消部分总额</div>
+                        <span class="first">优惠券:</span>
+                        <input type="text">
+                        <a href="javascript:;">
+                            <img src="../images/information/use_11.png" alt="">
+                        </a>
+                        <span>(优惠券中带'#'的请去掉'#'后使用)</span>
+                    </li>
+                    <li>
+                        <div>使用积分抵消部分总额</div>
+                        <span class="first">积分:</span>
+                        <input type="text">
+                        <a href="javascript:;">
+                            <img src="../images/information/use_11.png" alt="">
+                            <span>您当前的可用积分为200000,本订单最多可以使用20000 积分&nbsp&nbsp(100积分=1元)</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="dingdanfuyan">
+                    <div>订单附言:</div>
+                    <textarea></textarea>
+                </div>
+            </div>
+            <div class="allPrice">
+                <i>6件</i>
+                <span>商品,总商品金额:</span>
+                <i>$207.00</i>
+                <br>
+                <span>返积分:</span>
+                <span>-$0.00</span>
+                <br>
+                <span>运费:</span>
+                <span>$15.00</span>
+                <br>
+                <span>服务费:</span>
+                <span>$0.00</span>
+            </div>
+            <div class="shouldpay">
+                <span>应付总额:</span>
+                <i>$207.00</i>
+                <br>
+                <span>寄送至:北京海淀区上地三街9号金隅嘉华大厦F座607室</span>
+                <span>收货人:旺旺150221212121</span>
+            </div>
+            <a href="javascript:;" class="payBtn">
+                <img src="../images/information/pay_15.png" alt="">
+            </a>
+        </div>
+    </div>
+    <script src="../js/common/footer.js"></script>
+    <script type="text/javascript">
+        addressInit('cmbProvince', 'cmbCity', 'cmbArea');
+    </script>
+</body>
+
+</html>

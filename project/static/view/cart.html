@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../libs/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <script src="../../libs/jquery/jquery.js"></script>
+    <script src="../../libs/layui/layui.js"></script>
+    <script src="../js/cart.js"></script>
+</head>
+
+<body>
+    <script src="../js/common/header.js"></script>
+    <div class="cart_main">
+        <div class="w">
+            <div class="mycart">
+                <span class="fl">填写核对购物信息</span>
+                <img class="fr" src="../images/information/steps_03.png" alt="">
+            </div>
+            <table id="cartTable">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>商品名称</th>
+                        <th>属性</th>
+                        <th>星级</th>
+                        <th>单价(¥)</th>
+                        <th>数量</th>
+                        <th>商品合计</th>
+                        <th>操作</th>
+                    </tr>
+                    <tr class="dianpu">
+                        <th class="dianpu" colspan='8'>
+                            <input class="check-all check" type="checkbox" />
+                            <img src="../images/cart/store_07.png" alt="" class="fl">
+                            <span class="fl" style="line-height:20px">店铺:金融服饰商城</span>
+                            <a href="javascript:;" class="fr">浏览店铺</a>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="checkbox">
+                            <input class="check-one check" type="checkbox" name="check" />
+                        </td>
+                        <td class="goods">
+                            <img class="fl" src="../images/cart/goods_07.png" alt="" />
+                            <span class="fl">
+                                <a href="javascript:;">鸭鸭(YAYA)秋冬女装中长款毛领加厚修身 羽绒服女B-3933 黑色 165/88A</a>
+                            </span>
+                        </td>
+                        <td class="shuxing">颜色:黑色
+                            <br/>尺码:165/88A</td>
+                        <td class="star">1000</td>
+                        <td class="price">35</td>
+                        <td class="count">
+                            <span class="reduce fl">-</span>
+                            <input class="count-input fl" type="text" value="1" />
+                            <span class="add fl">+</span>
+                        </td>
+                        <td class="subtotal">35</td>
+                        <td class="operation">
+                            <span class="collect">收藏</span>
+                            <span class="delete">删除</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="checkbox">
+                            <input class="check-one check" type="checkbox" name="check" />
+                        </td>
+                        <td class="goods">
+                            <img class="fl" src="../images/cart/goods_07.png" alt="" />
+                            <span class="fl">
+                                <a href="javascript:;">鸭鸭(YAYA)秋冬女装中长款毛领加厚修身 羽绒服女B-3933 黑色 165/88A</a>
+                            </span>
+                        </td>
+                        <td class="shuxing">颜色:黑色
+                            <br/>尺码:165/88A</td>
+                        <td class="star">1000</td>
+                        <td class="price">35</td>
+                        <td class="count">
+                            <span class="reduce fl">-</span>
+                            <input class="count-input fl" type="text" value="1" />
+                            <span class="add fl">+</span>
+                        </td>
+                        <td class="subtotal">35</td>
+                        <td class="operation">
+                            <span class="collect">收藏</span>
+                            <span class="delete">删除</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="checkbox">
+                            <input class="check-one check" type="checkbox" name="check" />
+                        </td>
+                        <td class="goods">
+                            <img class="fl" src="../images/cart/goods_07.png" alt="" />
+                            <span class="fl">
+                                <a href="javascript:;">鸭鸭(YAYA)秋冬女装中长款毛领加厚修身 羽绒服女B-3933 黑色 165/88A</a>
+                            </span>
+                        </td>
+                        <td class="shuxing">颜色:黑色
+                            <br/>尺码:165/88A</td>
+                        <td class="star">1000</td>
+                        <td class="price">35</td>
+                        <td class="count">
+                            <span class="reduce fl">-</span>
+                            <input class="count-input fl" type="text" value="1" />
+                            <span class="add fl">+</span>
+                        </td>
+                        <td class="subtotal">35</td>
+                        <td class="operation">
+                            <span class="collect">收藏</span>
+                            <span class="delete">删除</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="checkbox">
+                            <input class="check-one check" type="checkbox" name="check" />
+                        </td>
+                        <td class="goods">
+                            <img class="fl" src="../images/cart/goods_07.png" alt="" />
+                            <span class="fl">
+                                <a href="javascript:;">鸭鸭(YAYA)秋冬女装中长款毛领加厚修身 羽绒服女B-3933 黑色 165/88A</a>
+                            </span>
+                        </td>
+                        <td class="shuxing">颜色:黑色
+                            <br/>尺码:165/88A</td>
+                        <td class="star">1000</td>
+                        <td class="price">35</td>
+                        <td class="count">
+                            <span class="reduce fl">-</span>
+                            <input class="count-input fl" type="text" value="1" />
+                            <span class="add fl">+</span>
+                        </td>
+                        <td class="subtotal">35</td>
+                        <td class="operation">
+                            <span class="collect">收藏</span>
+                            <span class="delete">删除</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="totalPrice clearfix">
+                <span>店铺合计:</span>
+                <i>¥</i>
+                <i id="pricetotal">2600</i>
+                <span>元</span>
+            </div>
+            <div class="foot" id="foot">
+                <label class="select-all">
+                    <input type="checkbox" class="check-all check" />&nbsp;全选</label>
+                <a class="delete" id="deleteAll" href="javascript:;">批量删除</a>
+                <a href="javascript:;" id="empty">清空购物车</a>
+                <div class=" total">合计：
+                    <i id="priceTotal">0.00</i>
+                    <span>元+运费</span>
+                    <i id="yunfei">20</i>
+                    <span>元=</span>
+                    <i>¥</i>
+                    <i id="lastPrice">1000</i>
+                    <span>元</span>
+                </div>
+                <div class=" closing fr">
+                    <img src="../images/cart/submit_03.png" alt="">
+                </div>
+            </div>
+            <div class="goShoping hide">
+                <p>购物车空空的哦~，去看看心仪的商品吧~</p>
+                <a href="./index.html">去购物</a>
+            </div>
+    </div>
+    <script src="../js/common/footer.js"></script>
+        
+</body>
+
+</html>

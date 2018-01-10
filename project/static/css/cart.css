@@ -1,0 +1,181 @@
+.cart_main .mycart {
+  height: 62px;
+  line-height: 62px;
+}
+.cart_main .mycart span {
+  font-size: 18px;
+  color: #646464;
+  line-height: 62px;
+}
+.cart_main .mycart img {
+  margin-top: 20px;
+}
+.cart_main #cartTable {
+  border: 1px solid #dadada;
+  width: 100%;
+  font-size: 14px;
+}
+.cart_main #cartTable td:nth-child(2) {
+  padding-right: 30px;
+}
+.cart_main #cartTable thead tr {
+  height: 38px;
+  border: 1px solid #dadada;
+  line-height: 38px;
+}
+.cart_main #cartTable thead tr th {
+  font-size: 14px;
+  line-height: 38px;
+  color: #666666;
+}
+.cart_main #cartTable thead tr th:first-child {
+  width: 33px;
+}
+.cart_main #cartTable thead tr th:nth-child(2) {
+  width: 400px;
+}
+.cart_main #cartTable thead .dianpu {
+  height: 48px;
+  background-color: #fff0e6;
+  border: solid 1px #dadada;
+}
+.cart_main #cartTable thead .dianpu input {
+  margin-top: 12px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.cart_main #cartTable thead .dianpu img,
+.cart_main #cartTable thead .dianpu span {
+  margin-top: 8px;
+}
+.cart_main #cartTable thead .dianpu span,
+.cart_main #cartTable thead .dianpu a {
+  color: #333333;
+  font-size: 16px;
+}
+.cart_main #cartTable thead .dianpu a {
+  margin-right: 50px;
+}
+.cart_main #cartTable tbody .goShoping {
+  width: 100%;
+  text-align: center;
+  line-height: 200px;
+}
+.cart_main #cartTable tbody input[type="checkbox"] {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #1c5180;
+  margin: 0 10px;
+  display: inline-block;
+}
+.cart_main #cartTable tbody tr {
+  border: 1px solid #dadada;
+  height: 102px;
+  text-align: center;
+}
+.cart_main #cartTable tbody .goods span {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 14px;
+  color: #eb0000;
+  width: 238px;
+  margin-left: 20px;
+  display: block;
+}
+.cart_main #cartTable tbody .star {
+  color: #eb0000;
+}
+.cart_main #cartTable tbody .count {
+  width: 135px;
+  padding-left: 35px;
+}
+.cart_main #cartTable tbody .count .reduce,
+.cart_main #cartTable tbody .count .add {
+  width: 12px;
+  display: block;
+  height: 12px;
+  margin-top: 2px;
+  border: solid 1px #dadada;
+  line-height: 12px;
+}
+.cart_main #cartTable tbody .count .reduce {
+  margin-left: 20px;
+}
+.cart_main #cartTable tbody .count .reduce:hover,
+.cart_main #cartTable tbody .count .add:hover {
+  cursor: pointer;
+}
+.cart_main #cartTable tbody .count input {
+  width: 22px;
+  height: 16px;
+  border: 1px solid #dadada;
+  margin: 0 5px;
+  text-align: center;
+}
+.cart_main #cartTable tbody .operation span {
+  color: #005aa0;
+  cursor: pointer;
+}
+.cart_main .goShoping {
+  border: 1px solid #dadada;
+  text-align: center;
+  height: 280px;
+  font-size: 16px;
+  padding-top: 220px;
+}
+.cart_main .goShoping a {
+  color: #eb0000;
+  text-decoration: underline;
+}
+.cart_main .totalPrice {
+  height: 51px;
+  border: 1px solid #dadada;
+  text-align: right;
+  background-color: #f4f4f4;
+  padding-right: 15px;
+  line-height: 51px;
+}
+.cart_main .totalPrice span {
+  font-size: 14px;
+  color: #666666;
+}
+.cart_main .totalPrice i {
+  font-size: 18px;
+  color: #eb0000;
+}
+.cart_main #foot {
+  margin-top: 20px;
+  height: 38px;
+  line-height: 38px;
+}
+.cart_main #foot input {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.cart_main #foot label {
+  margin-right: 18px;
+}
+.cart_main #foot .delete,
+.cart_main #foot #empty {
+  color: #005aa0;
+  margin-right: 22px;
+  font-size: 14px;
+}
+.cart_main #foot #empty {
+  margin-right: 420px;
+}
+.cart_main #foot div {
+  display: inline-block;
+  font-size: 16px;
+}
+.cart_main #foot div i {
+  color: #eb0000;
+}
+.cart_main #foot div #lastPrice {
+  font-size: 20px;
+}
+.cart_main #foot .closing img {
+  display: block;
+  cursor: pointer;
+}

@@ -1,0 +1,262 @@
+body {
+  font-size: 14px;
+  color: #555555;
+}
+.information_main .xinxi {
+  height: 62px;
+  line-height: 62px;
+  margin-bottom: 20px;
+}
+.information_main .xinxi span {
+  font-size: 18px;
+  color: #646464;
+  line-height: 62px;
+}
+.information_main .xinxi img {
+  margin-top: 20px;
+}
+.information_main .address {
+  width: 1198px;
+  padding-bottom: 20px;
+  border: 2px solid #dadada;
+}
+.information_main .address .title {
+  margin-top: 13px;
+  margin-left: 14px;
+  font-size: 14px;
+  color: #666666;
+}
+.information_main .address .address_main li {
+  height: 30px;
+  padding-left: 25px;
+  font-size: 14px;
+  color: #555555;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.information_main .address .address_main li input {
+  margin-right: 13px;
+}
+.information_main .address .address_main li .phone {
+  margin: 0 10px;
+}
+.information_main .address .address_main li a {
+  color: #0048b5;
+  font-size: 14px;
+}
+.information_main .address .address_main li .delete {
+  margin-right: 20px;
+  margin-left: 18px;
+}
+.information_main .address .address_main .newAddress {
+  padding-left: 53px;
+}
+.information_main .address .address_main .newAddress span {
+  text-align: right;
+  margin-right: 10px;
+  height: 31px;
+  vertical-align: middle;
+  width: 66px;
+  display: inline-block;
+}
+.information_main .address .address_main .newAddress input {
+  border: 1px solid #dadada;
+  height: 29px;
+  color: #555555;
+  font-size: 16px;
+}
+.information_main .address .address_main .newAddress select,
+.information_main .address .address_main .newAddress input {
+  vertical-align: baseline;
+}
+.information_main .address .address_main .newAddress #male,
+.information_main .address .address_main .newAddress #female {
+  position: relative;
+  top: 9px;
+}
+.information_main .address .address_main .newAddress .shouhuoren {
+  width: 222px;
+  margin-right: 23px;
+  margin-bottom: 14px;
+}
+.information_main .address .address_main .newAddress input[type="radio"] {
+  margin: 0px 8px 0px 10px;
+}
+.information_main .address .address_main .newAddress label {
+  line-height: 29px;
+  height: 29px;
+}
+.information_main .address .address_main .newAddress select {
+  width: 132px;
+  height: 29px;
+  border: 1px solid #dadada;
+}
+.information_main .address .address_main .newAddress .moreAdd .moreAddress {
+  width: 402px;
+  margin-top: 14px;
+}
+.information_main .address .address_main .newAddress .phoneNum input {
+  margin-top: 14px;
+  display: inline-block;
+  width: 222px;
+  margin-bottom: 25px;
+}
+.information_main .paykind {
+  margin-top: 20px;
+  height: 138px;
+  border: 2px solid #dadada;
+  margin-bottom: 20px;
+}
+.information_main .paykind .title {
+  margin-top: 13px;
+  margin-left: 14px;
+  font-size: 14px;
+  color: #666666;
+}
+.information_main .paykind ul {
+  padding-left: 18px;
+}
+.information_main .paykind ul li {
+  cursor: pointer;
+  float: left;
+  width: 130px;
+  height: 46px;
+  line-height: 48px;
+  border: 1px solid #dadada;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+.information_main .list {
+  border: 2px solid #dadada;
+  margin-bottom: 20px;
+}
+.information_main .list .title {
+  margin-top: 13px;
+  margin-left: 14px;
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 25px;
+}
+.information_main .list ul {
+  padding-bottom: 25px;
+}
+.information_main .list li {
+  height: 80px;
+  margin-bottom: 15px;
+  padding-left: 24px;
+}
+.information_main .list li img,
+.information_main .list li p,
+.information_main .list li span,
+.information_main .list li i {
+  float: left;
+}
+.information_main .list li p,
+.information_main .list li span,
+.information_main .list li i {
+  margin-top: 20px;
+}
+.information_main .list li p {
+  margin-left: 20px;
+  margin-right: 73px;
+  width: 256px;
+  color: #0015db;
+}
+.information_main .list li span {
+  margin-right: 35px;
+}
+.information_main .list li i {
+  font-size: 16px;
+  color: #e00000;
+}
+.information_main .list .list_foot {
+  height: 46px;
+  padding-left: 37px;
+  padding-right: 16px;
+  background-color: #f6f6f6;
+  border: 1px solid #dadada;
+}
+.information_main .list .list_foot span,
+.information_main .list .list_foot a {
+  margin-top: 13px;
+  font-size: 16px;
+  color: #e01222;
+  font-weight: bolder;
+}
+.information_main .gotopay {
+  border: 2px solid #dadada;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.information_main .gotopay li {
+  margin-bottom: 20px;
+}
+.information_main .gotopay li div {
+  color: #333333;
+  margin-bottom: 14px;
+}
+.information_main .gotopay li span {
+  font-size: 12px;
+  color: #999999;
+  line-height: 25px;
+  margin-right: 10px;
+}
+.information_main .gotopay li .first {
+  display: inline-block;
+  width: 40px;
+  text-align: right;
+}
+.information_main .gotopay li input {
+  height: 23px;
+  border: 1px solid #dadada;
+  width: 197px;
+  margin-right: 17px;
+}
+.information_main .gotopay li a {
+  margin-right: 7px;
+}
+.information_main .gotopay .dingdanfuyan div {
+  margin-bottom: 14px;
+}
+.information_main .gotopay .dingdanfuyan textarea {
+  width: 407px;
+  height: 115px;
+  border: 1px solid #dadada;
+  margin-bottom: 59px;
+}
+.information_main .allPrice {
+  margin-bottom: 30px;
+  height: 104px;
+  background-color: #f6f6f6;
+  border: solid 2px #dadada;
+  border-top: none;
+  padding-top: 20px;
+  padding-right: 21px;
+  text-align: right;
+  line-height: 25px;
+}
+.information_main .allPrice i {
+  color: #dc0000;
+}
+.information_main .shouldpay {
+  text-align: right;
+}
+.information_main .shouldpay span {
+  color: #666666;
+}
+.information_main .shouldpay i {
+  font-size: 18px;
+  color: #d70000;
+  margin-bottom: 18px;
+  display: inline-block;
+}
+.information_main .payBtn {
+  position: relative;
+  left: 990px;
+  display: block;
+  margin-top: 40px;
+}
+.footer {
+  margin-top: 30px !important;
+}

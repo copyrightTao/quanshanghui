@@ -358,6 +358,13 @@
   color: #fff;
   margin-right: 6px;
 }
+.main .right .content .category_main > ul > li:hover {
+  height: 325px;
+  width: 198px;
+  border: 8px solid #dadada;
+  padding-top: 3px;
+  padding-bottom: 17px;
+}
 .main .right .content .category_main ul > li:nth-child(4n+0) {
   margin-right: 0;
 }

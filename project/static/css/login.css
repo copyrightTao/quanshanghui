@@ -1,0 +1,99 @@
+.logo {
+  height: 136px;
+  background-color: #e01222;
+}
+.main {
+  height: 570px;
+}
+.main .lunbo {
+  margin-top: 125px;
+}
+.main .login {
+  margin-top: 100px;
+}
+.main .login .zhuce {
+  width: 340px;
+  margin-bottom: 12px;
+  height: 14px;
+}
+.main .login .zhuce a,
+.main .login .zhuce span {
+  float: right;
+  font-size: 14px;
+}
+.main .login .zhuce a {
+  color: #e01222;
+}
+.main .login .content {
+  width: 275px;
+  height: 278px;
+  border: solid 3px #e0e0e0;
+  padding: 33px 29px 36px;
+}
+.main .login .content input {
+  width: 264px;
+  height: 34px;
+  border: 1px solid #b5b5b5;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 34px;
+  color: #999999;
+  padding-left: 9px;
+}
+.main .login .content .yanzhengma {
+  height: 36px;
+  vertical-align: top;
+  position: relative;
+  margin-bottom: 55px;
+}
+.main .login .content .yanzhengma .yanzheng {
+  width: 119px;
+  height: 34px;
+  border: 1px solid #b5b5b5;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 34px;
+  color: #999999;
+  padding-left: 9px;
+}
+.main .login .content .yanzhengma > a,
+.main .login .content .yanzhengma > img {
+  position: absolute;
+  top: 5px;
+}
+.main .login .content .yanzhengma > a {
+  right: 4px;
+}
+.main .login .content .yanzhengma > img {
+  right: 48px;
+}
+.main .login .content #zidong {
+  width: 17px;
+  height: 17px;
+  border: 1px solid #1c5180;
+  color: #21a121;
+  margin-bottom: 0px;
+  margin-right: 12px;
+}
+.main .login .content label,
+.main .login .content a {
+  font-size: 14px;
+  color: #555555;
+}
+.main .login .content a {
+  text-decoration: underline;
+  margin-left: 14px;
+}
+.main .login .content .submit {
+  display: block;
+  width: 273px;
+  height: 36px;
+  background-color: #e01222;
+  font-size: 16px;
+  line-height: 36px;
+  color: #ffffff;
+  margin-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 0px;
+}
