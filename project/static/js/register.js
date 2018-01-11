@@ -6,7 +6,6 @@ $(function () {
             ,layer = layui.layer
             ,layedit = layui.layedit
             ,laydate = layui.laydate;
-
         //建造实例
         carousel.render({
             elem: '#test1',
@@ -19,7 +18,13 @@ $(function () {
         });
         //自定义验证规则
         form.verify({
-            pass: [/(.+){6,12}$/, '密码必须6到12位'],
+            /**
+             * 
+             * 
+             * @param {any} value 
+             * @param {any} item 
+             * @returns 
+             */
             repeatpass:function(value,item){
                 var oldPass = $('.password').val();
                 if(value == ""){

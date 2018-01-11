@@ -1,0 +1,21 @@
+.manage_main {
+  margin-top: 25px;
+}
+.manage_main .main_left {
+  width: 150px;
+  display: inline-block;
+}
+.manage_main .main_left .member_center {
+  height: 37px;
+  background-color: #e01222;
+  color: #fff;
+  line-height: 37px;
+  padding-left: 10px;
+}
+.manage_main .main_left .check_order dt {
+  border: 1px solid #dadada;
+  background-color: #eeeeee;
+  color: #333333;
+  padding-left: 18px;
+  line-height: 26px;
+}

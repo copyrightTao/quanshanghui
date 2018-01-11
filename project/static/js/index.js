@@ -33,7 +33,6 @@ $(function () {
     });
     $('.lefttools li').each(function (i) {
         $(this).click(function () {
-
             $(window).scrollTop(topHeight + floorHeight * i);
             $(this).children('a').css('display', 'none').siblings('div').css(
                 'display', 'block');
@@ -44,6 +43,13 @@ $(function () {
     $('.returntop').click(function () {
         $(window).scrollTop(0)
         console.log($(window).scrollTop())
+    })
+    $(window).scroll(function(){
+        if($(window).scrollTop() >= 500){
+            $('.asidetools').css('display','block');
+        }else {
+            $('.asidetools').css('display','none');
+        }
     })
 })
 /**
