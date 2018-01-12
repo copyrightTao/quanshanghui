@@ -13,18 +13,17 @@ $(function () {
     $('.address_main').delegate('input', 'click', function () {
         $(this).attr('checked', 'checked').parent().siblings().children('input').removeAttr('checked');
         $(this).siblings().children('a').removeClass('hide').parent().parent().siblings().find('a').addClass('hide');
-        $(this).parent('li').css('background-color','#fff4d3').siblings('li').css('background-color','#ffffff')
+        $(this).parent('li').css('background-color', '#fff4d3').siblings('li').css('background-color', '#ffffff')
     })
-    $('.address_main').delegate('.delete','click',function(){
+    $('.address_main').delegate('.delete', 'click', function () {
         var conf = confirm('是否删除该地址？');
-        if(conf){
-            $(this).parent().parent().remove()            
-        }else {
+        if (conf) {
+            $(this).parent().parent().remove()
+        } else {
             return false;
         }
     })
     $('.newAddress .phoneNumber').blur(function () {
-        console.log(1)
         var mobile = $(this)
         checkMobile(mobile)
     })
@@ -36,8 +35,8 @@ $(function () {
             alert('请填写详细收货地址');
             return false;
         } else {
-            var newLi = 
-                '<li>'+
+            var newLi =
+                '<li>' +
                 '<input type="radio" id="">' +
                 '<label for="">' +
                 '<span class="name"></span>' +
@@ -45,46 +44,45 @@ $(function () {
                 '<span class="userAddress">' +
                 '</span>' +
                 '<a href="javascript:;" class="hide delete fr">删除</a>' +
-                '<a href="javascript:;" class="hide bianji fr">编辑</a>'+
+                '<a href="javascript:;" class="hide bianji fr">编辑</a>' +
                 '</label>'
-                '</li>',
-                phone = $('.newAddress .phoneNumber').val(),
+            '</li>',
+            phone = $('.newAddress .phoneNumber').val(),
                 moreAddress = $('.newAddress .moreAddress').val(),
                 province = $('#cmbProvince').val(),
                 city = $('#cmbCity').val(),
                 area = $('#cmbArea').val(),
                 name = $('.user_info .shouhuoren').val();
-                $('.lastLi').before(newLi);
-                var thisLi=$('.address_main li').eq(-2)
-                $(thisLi).children('input').attr('id',phone);
-                $(thisLi).children('label').attr('for',phone);
-                $(thisLi).find('.name').html(name);
-                $(thisLi).find('.phone').html(phone);
-                $(thisLi).find('.userAddress').html(province+city+area+moreAddress);
-                $(thisLi).children('input').attr('checked','checked').parent().siblings().children('input').removeAttr('checked');
-                $(thisLi).css('background-color','#fff4d3').siblings('li').css('background-color','#ffffff')
-                $(thisLi).find('a').removeClass('hide').parent().parent().siblings().find('a').addClass('hide');
-                $('.newAddress .moreAddress').val("");
-                $('.user_info .shouhuoren').val("");
-                $('.newAddress .phoneNumber').val("");
+            $('.lastLi').before(newLi);
+            var thisLi = $('.address_main li').eq(-2)
+            $(thisLi).children('input').attr('id', phone);
+            $(thisLi).children('label').attr('for', phone);
+            $(thisLi).find('.name').html(name);
+            $(thisLi).find('.phone').html(phone);
+            $(thisLi).find('.userAddress').html(province + city + area + moreAddress);
+            $(thisLi).children('input').attr('checked', 'checked').parent().siblings().children('input').removeAttr('checked');
+            $(thisLi).css('background-color', '#fff4d3').siblings('li').css('background-color', '#ffffff')
+            $(thisLi).find('a').removeClass('hide').parent().parent().siblings().find('a').addClass('hide');
+            $('.newAddress .moreAddress').val("");
+            $('.user_info .shouhuoren').val("");
+            $('.newAddress .phoneNumber').val("");
         }
     })
-    $('.lastLi').click(function(){
+    $('.lastLi').click(function () {
         $(this).siblings().find('a').addClass('hide')
     })
     //支付方式点击事件
-    $('.paykind li').each(function(){
-        $(this).click(function(){
-            $(this).css({'background-image':'url("../images/information/background_03.png")',
-                         'border':'none',
-                         'height':'48px',
-                         'width':'132px'
-                       }).siblings('li').css({
-                           'background-image':'none',
-                           'border':'1px solid #dadada',
-                           'height':'46px',
-                           'width':'130px'
-                       })
+    $('.paykind li').click(function () {
+        $(this).css({
+            'background-image': 'url("../images/information/background_03.png")',
+            'border': 'none',
+            'height': '48px',
+            'width': '132px'
+        }).siblings('li').css({
+            'background-image': 'none',
+            'border': '1px solid #dadada',
+            'height': '46px',
+            'width': '130px'
         })
     })
 

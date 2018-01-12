@@ -4,6 +4,7 @@
 .manage_main .main_left {
   width: 150px;
   display: inline-block;
+  height: 478px;
 }
 .manage_main .main_left .member_center {
   height: 37px;
@@ -12,10 +13,164 @@
   line-height: 37px;
   padding-left: 10px;
 }
-.manage_main .main_left .check_order dt {
-  border: 1px solid #dadada;
+.manage_main .main_left dl {
+  border-left: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+}
+.manage_main .main_left dt {
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
   background-color: #eeeeee;
   color: #333333;
   padding-left: 18px;
   line-height: 26px;
+  font-weight: 700;
+}
+.manage_main .main_left dt img {
+  margin-left: 50px;
+  position: relative;
+  bottom: 2px;
+}
+.manage_main .main_left dd {
+  padding-left: 32px;
+  color: #333333;
+  line-height: 30px;
+}
+.manage_main .main_left dd:last-child {
+  margin-bottom: 18px;
+}
+.manage_main .main_left dd:first-child {
+  margin-top: 12px;
+}
+.manage_main .main_right {
+  width: 1030px;
+  display: inline-block;
+  margin-left: 16px;
+}
+.manage_main .main_right .right_title {
+  height: 38px;
+  border: 1px solid #dadada;
+  background-color: #f4f4f4;
+  padding: 6px 11px 0px 24px;
+}
+.manage_main .main_right .right_title span {
+  color: #333333;
+  line-height: 30px;
+}
+.manage_main .main_right .right_title .add_address {
+  height: 29px;
+  width: 130px;
+  border: 1px solid #bdbdbd;
+  background-color: #da0011;
+  color: #ffffff;
+  line-height: 29px;
+  text-align: center;
+}
+.manage_main .main_right .right_title .return_list {
+  line-height: 31px;
+  color: #e01222;
+}
+.manage_main .main_right ul {
+  padding: 15px 20px 3px 15px;
+  border: 1px solid #dadada;
+  border-top: 0px;
+}
+.manage_main .main_right ul li {
+  padding: 8px 20px 15px 18px;
+  height: 120px;
+  margin-bottom: 20px;
+  border: 1px solid #d8d8d8;
+  position: relative;
+}
+.manage_main .main_right ul li span,
+.manage_main .main_right ul li i {
+  line-height: 30px;
+}
+.manage_main .main_right ul li a {
+  position: absolute;
+}
+.manage_main .main_right ul li .moren {
+  top: 17px;
+  right: 20px;
+  color: #25b100;
+}
+.manage_main .main_right ul li .bianji {
+  color: #0e2eb6;
+  bottom: 16px;
+  right: 72px;
+}
+.manage_main .main_right ul li .delete {
+  bottom: 16px;
+  right: 21px;
+  color: #da0011;
+}
+.manage_main .main_right ul li .morendizhi {
+  position: absolute;
+  color: #ffc2c2;
+  top: 14px;
+  left: 155px;
+}
+.manage_main .main_right ul .setmoren {
+  background-color: #fff0f0;
+  border: 1px solid #ffc1c1;
+}
+.manage_main .main_right .newAddress {
+  height: 230px;
+  padding: 34px 490px 250px 26px;
+  border: 1px solid #dadada;
+  border-top: none;
+}
+.manage_main .main_right .newAddress span {
+  text-align: right;
+  margin-right: 10px;
+  height: 31px;
+  vertical-align: middle;
+  width: 66px;
+  display: inline-block;
+}
+.manage_main .main_right .newAddress input {
+  border: 1px solid #dadada;
+  height: 29px;
+  color: #555555;
+  font-size: 16px;
+}
+.manage_main .main_right .newAddress select,
+.manage_main .main_right .newAddress input {
+  vertical-align: baseline;
+}
+.manage_main .main_right .newAddress #male,
+.manage_main .main_right .newAddress #female {
+  position: relative;
+  top: 9px;
+}
+.manage_main .main_right .newAddress .shouhuoren {
+  width: 222px;
+  margin-right: 23px;
+  margin-bottom: 14px;
+}
+.manage_main .main_right .newAddress input[type="radio"] {
+  margin: 0px 8px 0px 10px;
+}
+.manage_main .main_right .newAddress label {
+  line-height: 29px;
+  height: 29px;
+}
+.manage_main .main_right .newAddress select {
+  width: 132px;
+  height: 29px;
+  border: 1px solid #dadada;
+}
+.manage_main .main_right .newAddress .moreAdd .moreAddress {
+  width: 402px;
+  margin-top: 14px;
+}
+.manage_main .main_right .newAddress .phoneNum input {
+  margin-top: 14px;
+  display: inline-block;
+  width: 222px;
+  margin-bottom: 25px;
+}
+.manage_main .main_right .newAddress .add {
+  margin-left: 20px;
 }

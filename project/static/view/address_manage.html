@@ -14,18 +14,21 @@
     <script src="../../libs/jquery/jquery.js"></script>
     <script src="../../libs/layui/layui.js"></script>
     <script src="../js/address_manage.js"></script>
+    <script src="../js/common/common.js"></script>
+    <script src="../js/common/jsAddresss.js"></script>
 </head>
-
 <body>
     <script src="../js/common/header.js"></script>
     <div class="w">
         <div class="manage_main">
-            <span class="main_left">
+            <span class="main_left fl">
                 <div class="member_center">
                     会员中心
                 </div>
                 <dl class="check_order">
-                    <dt>订单查询</dt>
+                    <dt>订单查询
+                        <img src="../images/address_manage/xiajiantou_03.png" alt="">
+                    </dt>
                     <dd>
                         <a href="javascript:;">我的订单</a>
                     </dd>
@@ -44,10 +47,10 @@
                 </dl>
                 <dl class="msg_manage">
                     <dt>资料管理
-                        <img src="" alt="">
+                        <img src="../images/address_manage/xiajiantou_03.png" alt="">
                     </dt>
                     <dd>
-                        <a href="javascript:;">我的地址</a>
+                        <a href="javascript:;" style="color:#e2313b;font-weight:700;">我的地址</a>
                     </dd>
                     <dd>
                         <a href="javascript:;">账户安全</a>
@@ -57,7 +60,9 @@
                     </dd>
                 </dl>
                 <dl class="service">
-                    <dt>客户服务</dt>
+                    <dt>客户服务
+                        <img src="../images/address_manage/xiajiantou_03.png" alt="">
+                    </dt>
                     <dd>
                         <a href="javascript:;">意见反馈</a>
                     </dd>
@@ -65,9 +70,147 @@
                         <a href="javascript:;">关于我们</a>
                     </dd>
                 </dl>
+               
             </span>
+            <div class="main_right">
+                <div class="right_title">
+                    <span class="fl">我的地址</span>
+                    <a href="javascript:;" class="fr add_address">新增地址</a>
+                    <a href="javascript:;" class="return_list fr hide">返回列表</a>
+                </div>
+                <ul>
+                    <li>
+                        <div class="shouhuoren">
+                            <span>收货人:</span>
+                            <i>江汉平</i>
+                        </div>
+                        <div class="suozaidiqu">
+                            <span>所在地区:</span>
+                            <i>北京朝阳区</i>
+                        </div>
+                        <div class="dizhi">
+                            <span>详细地址:</span>
+                            <i>上地三街9号金玉嘉华大厦F座607室</i>
+                        </div>
+                        <div class="phone">
+                            <span>联系电话:</span>
+                            <i>1801231561</i>
+                        </div>
+                        <a href="javascript:;" class="moren">设为默认</a>
+                        <a href="javascript:;" class="bianji">编辑</a>
+                        <a href="javascript:;" class="delete">删除</a>
+                        <div class="morendizhi hide">
+                            默认地址
+                        </div>
+                    </li>
+                    <li class="setmoren">
+                        <div class="shouhuoren">
+                            <span>收货人:</span>
+                            <i>江汉平</i>
+                        </div>
+                        <div class="suozaidiqu">
+                            <span>所在地区:</span>
+                            <i>北京朝阳区</i>
+                        </div>
+                        <div class="dizhi">
+                            <span>详细地址:</span>
+                            <i>上地三街9号金玉嘉华大厦F座607室</i>
+                        </div>
+                        <div class="phone">
+                            <span>联系电话:</span>
+                            <i>1801231561</i>
+                        </div>
+                        <a href="javascript:;" class="moren hide">设为默认</a>
+                        <a href="javascript:;" class="bianji">编辑</a>
+                        <a href="javascript:;" class="delete">删除</a>
+                        <div class="morendizhi">
+                            默认地址
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shouhuoren">
+                            <span>收货人:</span>
+                            <i>江汉平</i>
+                        </div>
+                        <div class="suozaidiqu">
+                            <span>所在地区:</span>
+                            <i>北京朝阳区</i>
+                        </div>
+                        <div class="dizhi">
+                            <span>详细地址:</span>
+                            <i>上地三街9号金玉嘉华大厦F座607室</i>
+                        </div>
+                        <div class="phone">
+                            <span>联系电话:</span>
+                            <i>1801231561</i>
+                        </div>
+                        <a href="javascript:;" class="moren">设为默认</a>
+                        <a href="javascript:;" class="bianji">编辑</a>
+                        <a href="javascript:;" class="delete">删除</a>
+                        <div class="morendizhi hide">
+                            默认地址
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shouhuoren">
+                            <span>收货人:</span>
+                            <i>江汉平</i>
+                        </div>
+                        <div class="suozaidiqu">
+                            <span>所在地区:</span>
+                            <i>北京朝阳区</i>
+                        </div>
+                        <div class="dizhi">
+                            <span>详细地址:</span>
+                            <i>上地三街9号金玉嘉华大厦F座607室</i>
+                        </div>
+                        <div class="phone">
+                            <span>联系电话:</span>
+                            <i>1801231561</i>
+                        </div>
+                        <a href="javascript:;" class="moren">设为默认</a>
+                        <a href="javascript:;" class="bianji">编辑</a>
+                        <a href="javascript:;" class="delete">删除</a>
+                        <div class="morendizhi hide">
+                            默认地址
+                        </div>
+                    </li>
+                </ul>
+                <div class="newAddress hide">
+                        <div class="user_info">
+                            <span>收货人:</span>
+                            <input type="text" class="shouhuoren">
+                            <input type="radio" name="sex" id="male" />
+                            <label for="male">先生</label>
+                            <input type="radio" name="sex" id="female" />
+                            <label for="female">女士</label>
+                        </div>
+                        <div class="diqu">
+                            <span>所在地区:</span>
+                            <select id="cmbProvince" name="cmbProvince"></select>
+                            <select id="cmbCity" name="cmbCity"></select>
+                            <select id="cmbArea" name="cmbArea"></select>
+                        </div>
+                        <div class="moreAdd">
+                            <span>详细地址:</span>
+                            <input type="text" class="moreAddress">
+                        </div>
+                        <div class="phoneNum">
+                            <span>手机号码:</span>
+                            <input type="text" class="phoneNumber">
+                        </div>
+                        <a href="javascript:;" class="give_up">
+                            <img src="../images/address_manage/give_up_03.png" alt="">
+                        </a>
+                        <a href="javascript:;" class="add">
+                            <img src="../images/address_manage/add_05.png" alt="">
+                        </a>
+                    </div>
+            </div>
+            <div class="clear"></div>
         </div>
     </div>
+    <script src="../js/common/footer.js"></script>
 
 </body>
 

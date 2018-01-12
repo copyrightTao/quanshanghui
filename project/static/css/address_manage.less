@@ -3,6 +3,7 @@
     .main_left {
         width: 150px;
         display: inline-block;
+        height: 478px;
         .member_center {
             height: 37px;
             background-color: #e01222;
@@ -10,13 +11,169 @@
             line-height: 37px;
             padding-left: 10px;
         }
-        .check_order {
-            dt {
+        dl {
+            border-left: 1px solid #dadada;
+            border-right: 1px solid #dadada;
+            border-bottom: 1px solid #dadada;
+        }
+        dt {
+            border-top: 1px solid #dadada;
+            border-bottom: 1px solid #dadada;
+            background-color: #eeeeee;
+            color: #333333;
+            padding-left: 18px;
+            line-height: 26px;
+            font-weight: 700;
+            img {
+                margin-left: 50px;
+                position: relative;
+                bottom: 2px;
+            }
+        }
+        dd {
+            padding-left: 32px;
+            color: #333333;
+            line-height: 30px;
+        }
+        dd:last-child {
+            margin-bottom: 18px;
+        }
+        dd:first-child {
+            margin-top: 12px;
+        }
+    }
+    .main_right {
+        width: 1030px;
+        display: inline-block;
+        margin-left: 16px;
+        .right_title {
+            height: 38px;
+            border: 1px solid #dadada;
+            background-color: #f4f4f4;
+            padding: 6px 11px 0px 24px;
+            span {
+                color: #333333;
+                line-height: 30px;
+            }
+            .add_address {
+                height: 29px;
+                width: 130px;
+                border: 1px solid #bdbdbd;
+                background-color: #da0011;
+                color: #ffffff;
+                line-height: 29px;
+                text-align: center;
+            }
+            .return_list {
+                line-height: 31px;
+                color: #e01222;
+            }
+        }
+        ul {
+            padding: 15px 20px 3px 15px;
+            border: 1px solid #dadada;
+            border-top: 0px;
+            li {
+                padding: 8px 20px 15px 18px;
+                height: 120px;
+                margin-bottom: 20px;
+                border: 1px solid #d8d8d8;
+                position: relative;
+                span,
+                i {
+                    line-height: 30px;
+                }
+                a {
+                    position: absolute;
+                }
+                .moren {
+                    top: 17px;
+                    right: 20px;
+                    color: #25b100;
+                }
+                .bianji {
+                    color: #0e2eb6;
+                    bottom: 16px;
+                    right: 72px;
+                }
+                .delete {
+                    bottom: 16px;
+                    right: 21px;
+                    color: #da0011;
+                }
+                .morendizhi {
+                    position: absolute;
+                    color: #ffc2c2;
+                    top: 14px;
+                    left: 155px;
+                }
+            }
+            .setmoren {
+                background-color: #fff0f0;
+                border: 1px solid #ffc1c1;
+            }
+        }
+        .newAddress {
+            height: 230px;
+            padding: 34px 490px 250px 26px;
+            border: 1px solid #dadada;
+            border-top: none;
+            span {
+                text-align: right;
+                margin-right: 10px;
+                height: 31px;
+                vertical-align: middle;
+                width: 66px;
+                display: inline-block;
+            }
+            input {
                 border: 1px solid #dadada;
-                background-color: #eeeeee;
-                color: #333333; 
-                padding-left: 18px;
-                line-height: 26px;
+                height: 29px;
+                color: #555555;
+                font-size: 16px;
+            }
+            select,
+            input {
+                vertical-align: baseline;
+            }
+            #male,
+            #female {
+                position: relative;
+                top: 9px;
+            }
+            .shouhuoren {
+                width: 222px;
+                margin-right: 23px;
+                margin-bottom: 14px;
+            }
+            input[type="radio"] {
+                margin: 0px 8px 0px 10px;
+            }
+            label {
+                line-height: 29px;
+                height: 29px;
+            }
+            select {
+                width: 132px;
+                height: 29px;
+                border: 1px solid #dadada;
+            }
+            .moreAdd {
+                .moreAddress {
+                    width: 402px;
+                    margin-top: 14px;
+                }
+            }
+            .phoneNum {
+                input {
+                    margin-top: 14px;
+                    display: inline-block;
+                    width: 222px;
+                    margin-bottom: 25px;
+                }
+            }
+            .add {
+                margin-left: 20px;
             }
         }
     }
