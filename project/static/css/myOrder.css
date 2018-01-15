@@ -1,0 +1,181 @@
+body {
+  font-size: 14px;
+}
+.myOrder_main {
+  margin-top: 25px;
+}
+.myOrder_main .main_left {
+  width: 150px;
+  display: inline-block;
+  height: 478px;
+}
+.myOrder_main .main_left .member_center {
+  height: 37px;
+  background-color: #e01222;
+  color: #fff;
+  line-height: 37px;
+  padding-left: 10px;
+}
+.myOrder_main .main_left dl {
+  border-left: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+}
+.myOrder_main .main_left dt {
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  background-color: #eeeeee;
+  color: #333333;
+  padding-left: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.myOrder_main .main_left dt img {
+  margin-left: 50px;
+  position: relative;
+  bottom: 2px;
+}
+.myOrder_main .main_left dd {
+  padding-left: 32px;
+  color: #333333;
+  line-height: 30px;
+}
+.myOrder_main .main_left dd:last-child {
+  margin-bottom: 18px;
+}
+.myOrder_main .main_left dd:first-child {
+  margin-top: 12px;
+}
+.myOrder_main .main_right {
+  width: 1034px;
+  display: inline-block;
+  margin-left: 16px;
+}
+.myOrder_main .main_right .right_title {
+  height: 44px;
+  border: 1px solid #dadada;
+  background-color: #f4f4f4;
+  padding-left: 25px;
+}
+.myOrder_main .main_right .right_title ul,
+.myOrder_main .main_right .right_title select,
+.myOrder_main .main_right .right_title input,
+.myOrder_main .main_right .right_title a {
+  float: left;
+  position: relative;
+  top: 11px;
+}
+.myOrder_main .main_right .right_title ul {
+  color: #333333;
+}
+.myOrder_main .main_right .right_title ul li {
+  float: left;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.myOrder_main .main_right .right_title ul .changeRed {
+  color: #da0011;
+  font-weight: 700;
+}
+.myOrder_main .main_right .right_title select {
+  margin-left: 145px;
+  border: none;
+  background-color: #f4f4f4;
+  color: #b2b2b2;
+  font-size: 14px;
+}
+.myOrder_main .main_right .right_title input {
+  height: 29px;
+  width: 222px;
+  border: 1px solid #bdbdbd;
+  color: #999999;
+  padding-left: 8px;
+  top: 6px;
+  margin-left: 160px;
+}
+.myOrder_main .main_right .right_title a {
+  margin-left: 15px;
+  color: #555555;
+}
+.myOrder_main .main_right .right_content {
+  padding: 13px 11px 3px 11px;
+  border: 1px solid #dadada;
+  border-top: none;
+}
+.myOrder_main .main_right .right_content li {
+  margin-bottom: 20px;
+}
+.myOrder_main .main_right .right_content li .store {
+  height: 32px;
+  background-color: #f4f4f4;
+  border: 1px solid #dadada;
+  padding-left: 20px;
+  padding-top: 16px;
+}
+.myOrder_main .main_right .right_content li .store img,
+.myOrder_main .main_right .right_content li .store span,
+.myOrder_main .main_right .right_content li .store i {
+  float: left;
+}
+.myOrder_main .main_right .right_content li .store img {
+  margin-right: 14px;
+}
+.myOrder_main .main_right .right_content li .store span {
+  color: #999999;
+}
+.myOrder_main .main_right .right_content li .store .store_name {
+  font-size: 16px;
+  color: #333333;
+  margin-top: -3px;
+  margin-right: 480px;
+}
+.myOrder_main .main_right .right_content li .store .orderNum {
+  margin-left: 25px;
+  margin-right: 10px;
+}
+.myOrder_main .main_right .right_content li .zhuangtai {
+  height: 37px;
+  padding-left: 20px;
+  padding-top: 17px;
+  border: 1px solid #dadada;
+  border-top: none;
+}
+.myOrder_main .main_right .right_content li .zhuangtai .consignee {
+  margin-right: 32px;
+  color: #737373;
+}
+.myOrder_main .main_right .right_content li .zhuangtai .order_status {
+  margin-right: 530px;
+  color: #737373;
+}
+.myOrder_main .main_right .right_content li .zhuangtai .money {
+  color: #eb0000;
+  margin-right: 40px;
+}
+.myOrder_main .main_right .right_content li .zhuangtai a {
+  color: #005aa0;
+  margin-right: 12px;
+}
+.myOrder_main .main_right .right_content li .goods_msg {
+  padding-top: 20px;
+  padding-left: 20px;
+  border: 1px solid #dadada;
+  border-top: none;
+}
+.myOrder_main .main_right .right_content li .goods_msg img,
+.myOrder_main .main_right .right_content li .goods_msg p,
+.myOrder_main .main_right .right_content li .goods_msg span {
+  display: inline-block;
+}
+.myOrder_main .main_right .right_content li .goods_msg img {
+  border: 1px solid #dddddd;
+  height: 78px;
+  width: 78px;
+}
+.myOrder_main .main_right .right_content li .goods_msg p {
+  width: 260px;
+  margin-left: 20px;
+  margin-right: 65px;
+  position: relative;
+  top: 8px;
+}
