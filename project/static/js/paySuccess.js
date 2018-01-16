@@ -15,5 +15,4 @@ $(function () {
             window.location.href = href;
         }
     }, 1000)
-
 })

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../libs/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/myPoints.css">
+    <script src="../../libs/jquery/jquery.js"></script>
+    <script src="../../libs/layui/layui.js"></script>
+    <script src="../js/myPoints.js"></script>
+    <script src="../js/common/common.js"></script>
+</head>
+
+<body>
+    <script src="../js/common/header.js"></script>
+    <div class="w">
+        <div class="myPoints_main">
+            <span class="main_left fl">
+                <div class="member_center">
+                    会员中心
+                </div>
+                <dl class="check_order">
+                    <dt>订单查询
+                        <img src="../images/address_manage/xiajiantou_03.png" alt="">
+                    </dt>
+                    <dd>
+                        <a href="javascript:;">我的订单</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;" style="color:#e2313b;font-weight:700;">我的积分</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">我的星级</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">佣金管理</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">我的收藏</a>
+                    </dd>
+                </dl>
+                <dl class="msg_manage">
+                    <dt>资料管理
+                        <img src="../images/address_manage/xiajiantou_03.png" alt="">
+                    </dt>
+                    <dd>
+                        <a href="javascript:;">我的地址</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">账户安全</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">我的信息</a>
+                    </dd>
+                </dl>
+                <dl class="service">
+                    <dt>客户服务
+                        <img src="../images/address_manage/xiajiantou_03.png" alt="">
+                    </dt>
+                    <dd>
+                        <a href="javascript:;">意见反馈</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">关于我们</a>
+                    </dd>
+                </dl>
+
+            </span>
+            <div class="main_right fr">
+                <div class="title">
+                    <span>账户积分</span>
+                    <i>1200分</i>
+                    <input type="text" class="layui-input" id="test1" placeholder="起始时间">
+                    <input type="text" class="layui-input" id="test2" placeholder="结束时间">
+                    <a href="javascript:;">搜索</a>
+                    <select name="" id="">
+                        <option value="">所有记录</option>
+                    </select>
+                </div>
+                <div class="content">
+                    <table border="1">
+                        <thead>
+                            <th class="xuhao">序号</th>
+                            <th class="leixing">积分类型</th>
+                            <th class="caozuo">积分操作</th>
+                            <th class="shijian">时间</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>01</td>
+                                <td>充值</td>
+                                <td class="changeGreen">+100</td>
+                                <td>2017-11-05</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>充值</td>
+                                <td>+100</td>
+                                <td>2017-11-05</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>充值</td>
+                                <td>+100</td>
+                                <td>2017-11-05</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>充值</td>
+                                <td>+100</td>
+                                <td>2017-11-05</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>充值</td>
+                                <td>+100</td>
+                                <td>2017-11-05</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>充值</td>
+                                <td class="changeRed">-100</td>
+                                <td>2017-11-05</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="page_num">
+                        <div>
+                            <div class="totle_page">
+                                <span>1</span>
+                                <span>/共</span>
+                                <span>5</span>
+                                <span>页</span>
+                            </div>
+                            <ul>
+                                <li class="first_page">
+                                    <a href="javascript:;" class=" changeRed">
+                                        首页
+                                    </a>
+                                </li>
+                                <li class="up_page">
+                                    <a href="javascript:;">
+                                        上一页
+                                    </a>
+                                </li>
+                                <li class="page_number">
+                                    <a href="javascript:;">
+                                        1
+                                    </a>
+                                </li>
+                                <li class="page_number">
+                                    <a href="javascript:;">
+                                        2
+                                    </a>
+                                </li>
+                                <li class="page_number">
+                                    <a href="javascript:;">
+                                        3
+                                    </a>
+                                </li>
+                                <li class="page_number">
+                                    <a href="javascript:;">
+                                        4
+                                    </a>
+                                </li>
+                                <li class="page_number">
+                                    <a href="javascript:;">
+                                        5
+                                    </a>
+                                </li>
+                                <li class="next_page">
+                                    <a href="javascript:;">
+                                        下一页
+                                    </a>
+                                </li>
+                                <li class="last_page">
+                                    <a href="javascript:;">
+                                        尾页
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="total_jilu">
+                        <span>
+                            共:
+                        </span>
+                        <i>168条记录</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

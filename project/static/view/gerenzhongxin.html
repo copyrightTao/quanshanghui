@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../libs/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/address_manage.css">
+    <script src="../../libs/jquery/jquery.js"></script>
+    <script src="../../libs/layui/layui.js"></script>
+    <script src="../js/address_manage.js"></script>
+    <script src="../js/common/common.js"></script>
+    <style>
+        .myOrder_main {
+            margin-top: 25px;
+            .main_left {
+                width: 150px;
+                display: inline-block;
+                height: 478px;
+                .member_center {
+                    height: 37px;
+                    background-color: #e01222;
+                    color: #fff;
+                    line-height: 37px;
+                    padding-left: 10px;
+                }
+                dl {
+                    border-left: 1px solid #dadada;
+                    border-right: 1px solid #dadada;
+                    border-bottom: 1px solid #dadada;
+                }
+                dt {
+                    border-top: 1px solid #dadada;
+                    border-bottom: 1px solid #dadada;
+                    background-color: #eeeeee;
+                    color: #333333;
+                    padding-left: 18px;
+                    line-height: 26px;
+                    font-weight: 700;
+                    img {
+                        margin-left: 50px;
+                        position: relative;
+                        bottom: 2px;
+                    }
+                }
+                dd {
+                    padding-left: 32px;
+                    color: #333333;
+                    line-height: 30px;
+                }
+                dd:last-child {
+                    margin-bottom: 18px;
+                }
+                dd:first-child {
+                    margin-top: 12px;
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <script src="../js/common/header.js"></script>
+    <div class="w">
+        <div class="manage_main">
+            <span class="main_left fl">
+                <div class="member_center">
+                    会员中心
+                </div>
+                <dl class="check_order">
+                    <dt>订单查询
+                        <img src="../images/address_manage/xiajiantou_03.png" alt="">
+                    </dt>
+                    <dd>
+                        <a href="javascript:;">我的订单</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">我的积分</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">我的星级</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">佣金管理</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">我的收藏</a>
+                    </dd>
+                </dl>
+                <dl class="msg_manage">
+                    <dt>资料管理
+                        <img src="../images/address_manage/xiajiantou_03.png" alt="">
+                    </dt>
+                    <dd>
+                        <a href="javascript:;" style="color:#e2313b;font-weight:700;">我的地址</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">账户安全</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">我的信息</a>
+                    </dd>
+                </dl>
+                <dl class="service">
+                    <dt>客户服务
+                        <img src="../images/address_manage/xiajiantou_03.png" alt="">
+                    </dt>
+                    <dd>
+                        <a href="javascript:;">意见反馈</a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;">关于我们</a>
+                    </dd>
+                </dl>
+
+            </span>
+            <div class="main_right"></div>
+        </div>
+    </div>
+</body>
+<script>
+    $(function () {
+    //个人中心通用的样式修改start
+    $('.hengxian').remove();
+    $('.daohang').css('background-color', '#da0011');
+    $('.othercategory li').eq(2).remove();
+    $('.othercategory li').eq(2).remove();
+    var li = "<li><a href='../view/index.html'>首页</a></li>";
+    $(li).insertBefore($('.othercategory li').eq(0));
+    $('.othercategory li').css({
+        'margin-left': '60px',
+        'margin-top': '3px'
+    });
+    $('.othercategory li').find('a').css('color', '#fff')
+    //左侧导航栏
+    $('.main_left dt').click(function () {
+        $(this).siblings('dd').toggle();
+    })
+    //个人中心通用的样式修改end
+    })
+</script>
+</html>

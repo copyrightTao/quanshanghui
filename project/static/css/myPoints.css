@@ -1,0 +1,166 @@
+body {
+  font-size: 14px;
+}
+.myPoints_main {
+  margin-top: 25px;
+}
+.myPoints_main .main_left {
+  width: 150px;
+  display: inline-block;
+  height: 478px;
+}
+.myPoints_main .main_left .member_center {
+  height: 37px;
+  background-color: #e01222;
+  color: #fff;
+  line-height: 37px;
+  padding-left: 10px;
+}
+.myPoints_main .main_left dl {
+  border-left: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+}
+.myPoints_main .main_left dt {
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  background-color: #eeeeee;
+  color: #333333;
+  padding-left: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.myPoints_main .main_left dt img {
+  margin-left: 50px;
+  position: relative;
+  bottom: 2px;
+}
+.myPoints_main .main_left dd {
+  padding-left: 32px;
+  color: #333333;
+  line-height: 30px;
+}
+.myPoints_main .main_left dd:last-child {
+  margin-bottom: 18px;
+}
+.myPoints_main .main_left dd:first-child {
+  margin-top: 12px;
+}
+.myPoints_main .main_right {
+  width: 1029px;
+  border: 1px solid #dadada;
+}
+.myPoints_main .main_right .title {
+  padding-left: 29px;
+  height: 79px;
+  border-bottom: 1px solid #dadada;
+  background-color: #ffeaeb;
+  display: table-cell;
+  vertical-align: middle;
+  width: 1000px;
+}
+.myPoints_main .main_right .title span {
+  color: #999999;
+}
+.myPoints_main .main_right .title i {
+  font-size: 18px;
+  color: #da0011;
+  font-weight: 700;
+  margin-right: 100px;
+}
+.myPoints_main .main_right .title input {
+  height: 29px;
+  border: 1px solid #d8d8d8;
+  padding-left: 11px;
+  width: 116px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.myPoints_main .main_right .title a {
+  display: inline-block;
+  height: 29px;
+  width: 71px;
+  border: 1px solid #dadada;
+  line-height: 27px;
+  text-align: center;
+  background-color: #da0011;
+  color: #fff;
+  margin-right: 239px;
+}
+.myPoints_main .main_right .title select {
+  height: 29px;
+  width: 113px;
+  border: 1px solid #dadada;
+  padding-left: 14px;
+  color: #666666;
+}
+.myPoints_main .main_right .content {
+  padding: 27px 25px 55px;
+}
+.myPoints_main .main_right .content table {
+  border: 1px solid #c5c5c5;
+  border-collapse: collapse;
+  line-height: 41px;
+}
+.myPoints_main .main_right .content table .xuhao {
+  width: 111px;
+}
+.myPoints_main .main_right .content table .leixing {
+  width: 390px;
+}
+.myPoints_main .main_right .content table .caozuo {
+  width: 290px;
+}
+.myPoints_main .main_right .content table .shijian {
+  width: 189px;
+}
+.myPoints_main .main_right .content table td {
+  text-align: center;
+}
+.myPoints_main .main_right .content table .changeGreen {
+  color: #6bc667;
+}
+.myPoints_main .main_right .content table .changeRed {
+  color: #dc2430;
+}
+.myPoints_main .main_right .content .page_num {
+  font-size: 12px;
+  margin-top: 30px;
+}
+.myPoints_main .main_right .content .page_num > div {
+  float: right;
+  margin-bottom: 25px;
+}
+.myPoints_main .main_right .content .page_num > div > div,
+.myPoints_main .main_right .content .page_num > div > ul {
+  float: left;
+}
+.myPoints_main .main_right .content .page_num > div ul li {
+  float: left;
+  line-height: 26px;
+  border: 1px solid #dadada;
+  margin-right: 5px;
+}
+.myPoints_main .main_right .content .page_num > div ul li a {
+  display: block;
+}
+.myPoints_main .main_right .content .page_num > div ul .first_page a,
+.myPoints_main .main_right .content .page_num > div ul .up_page a,
+.myPoints_main .main_right .content .page_num > div ul .next_page a,
+.myPoints_main .main_right .content .page_num > div ul .last_page a {
+  padding: 0px 17px;
+}
+.myPoints_main .main_right .content .page_num > div ul .page_number a {
+  padding: 0px 9px;
+}
+.myPoints_main .main_right .content .page_num > div .totle_page {
+  margin-top: 5px;
+  margin-right: 13px;
+}
+.myPoints_main .main_right .content .page_num .changeRed {
+  background-color: #e61010;
+  color: #fff;
+}
+.myPoints_main .main_right .content .total_jilu i {
+  color: #e61010;
+}
