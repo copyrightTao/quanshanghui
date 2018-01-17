@@ -1,0 +1,179 @@
+body {
+  font-size: 14px;
+  color: #333333;
+}
+.myCollect_main {
+  margin-top: 25px;
+}
+.myCollect_main .main_left {
+  width: 150px;
+  display: inline-block;
+  height: 478px;
+}
+.myCollect_main .main_left .member_center {
+  height: 37px;
+  background-color: #e01222;
+  color: #fff;
+  line-height: 37px;
+  padding-left: 10px;
+}
+.myCollect_main .main_left dl {
+  border-left: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+}
+.myCollect_main .main_left dt {
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  background-color: #eeeeee;
+  color: #333333;
+  padding-left: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.myCollect_main .main_left dt img {
+  margin-left: 50px;
+  position: relative;
+  bottom: 2px;
+}
+.myCollect_main .main_left dd {
+  padding-left: 32px;
+  color: #333333;
+  line-height: 30px;
+}
+.myCollect_main .main_left dd:last-child {
+  margin-bottom: 18px;
+}
+.myCollect_main .main_left dd:first-child {
+  margin-top: 12px;
+}
+.myCollect_main .main_right {
+  width: 1029px;
+  float: right;
+  border: 1px solid #dadada;
+}
+.myCollect_main .main_right .title {
+  height: 43px;
+  border-bottom: 1px solid #dadada;
+  background-color: #f4f4f4;
+  display: table-cell;
+  vertical-align: middle;
+  width: 1005px;
+  padding-left: 24px;
+}
+.myCollect_main .main_right .title input {
+  width: 212px;
+  height: 29px;
+  border: 1px solid #bdbdbd;
+  color: #999999;
+  padding-left: 10px;
+  margin-left: 660px;
+  margin-right: 15px;
+}
+.myCollect_main .main_right .title a {
+  color: #555555;
+}
+.myCollect_main .main_right .content {
+  padding: 13px 11px 0px 11px;
+}
+.myCollect_main .main_right .content > ul > li {
+  margin-bottom: 20px;
+  border: 1px solid #dadada;
+}
+.myCollect_main .main_right .content > ul > li .store {
+  height: 48px;
+  border-bottom: 1px solid #dadada;
+  display: table-cell;
+  vertical-align: middle;
+  width: 1000px;
+  background-color: #f4f4f4;
+  padding-left: 12px;
+  padding-right: 17px;
+}
+.myCollect_main .main_right .content > ul > li .store img {
+  margin-left: 8px;
+  margin-right: 5px;
+}
+.myCollect_main .main_right .content > ul > li .store a {
+  color: #005aa0;
+}
+.myCollect_main .main_right .content > ul > li ul {
+  padding: 20px 20px 5px 12px;
+}
+.myCollect_main .main_right .content > ul > li ul li {
+  margin-bottom: 19px;
+}
+.myCollect_main .main_right .content > ul > li ul li img {
+  margin-left: 12px;
+  margin-right: 20px;
+  border: 1px solid #dadada;
+  height: 78px;
+  width: 78px;
+  display: inline-block;
+}
+.myCollect_main .main_right .content > ul > li ul li span {
+  display: inline-block;
+  width: 260px;
+  color: #999999;
+  position: relative;
+  top: 5px;
+  margin-right: 273px;
+}
+.myCollect_main .main_right .content > ul > li ul li i {
+  color: #ee3f3f;
+}
+.myCollect_main .main_right .content > ul > li ul li .xingji {
+  margin-left: 64px;
+  margin-right: 50px;
+}
+.myCollect_main .main_right .content > ul > li ul li a {
+  color: #005aa0;
+}
+.myCollect_main .main_right .content .page_num {
+  font-size: 12px;
+  margin-top: 30px;
+}
+.myCollect_main .main_right .content .page_num > div {
+  float: right;
+  margin-bottom: 25px;
+}
+.myCollect_main .main_right .content .page_num > div > div,
+.myCollect_main .main_right .content .page_num > div > ul {
+  float: left;
+}
+.myCollect_main .main_right .content .page_num > div ul li {
+  float: left;
+  line-height: 26px;
+  border: 1px solid #dadada;
+  margin-right: 5px;
+}
+.myCollect_main .main_right .content .page_num > div ul li a {
+  display: block;
+}
+.myCollect_main .main_right .content .page_num > div ul .first_page a,
+.myCollect_main .main_right .content .page_num > div ul .up_page a,
+.myCollect_main .main_right .content .page_num > div ul .next_page a,
+.myCollect_main .main_right .content .page_num > div ul .last_page a {
+  padding: 0px 17px;
+}
+.myCollect_main .main_right .content .page_num > div ul .page_number a {
+  padding: 0px 9px;
+}
+.myCollect_main .main_right .content .page_num > div .totle_page {
+  margin-top: 5px;
+  margin-right: 13px;
+}
+.myCollect_main .main_right .content .page_num .changeRed {
+  background-color: #e61010;
+  color: #fff;
+}
+.myCollect_main .main_right .content .fl #allCheck {
+  position: relative;
+  top: -2px;
+  margin-left: 14px;
+  margin-right: 3px;
+}
+.myCollect_main .main_right .content .fl a {
+  margin-left: 25px;
+  color: #d70303;
+}

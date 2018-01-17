@@ -1,0 +1,94 @@
+body {
+  font-size: 14px !important;
+}
+.header {
+  height: 109px;
+}
+.header .w {
+  height: 109px;
+  position: relative;
+}
+.header .w > div {
+  position: absolute;
+}
+.header .w .logo {
+  margin-top: 17px;
+}
+.header .w .top {
+  left: 957px;
+  bottom: 63px;
+}
+.header .w .top i {
+  color: #e46b71;
+  margin-right: 6px;
+}
+.header .w .bottom {
+  left: 957px;
+  bottom: 35px;
+}
+.header .w .bottom img {
+  position: relative;
+  top: -2px;
+}
+.header .w .bottom span {
+  cursor: pointer;
+}
+.header .w .bottom .changePass {
+  margin-right: 20px;
+}
+.header .w .fr {
+  margin-top: 28px;
+  margin-right: 28px;
+}
+.navi {
+  height: 42px;
+  background-color: #da0011;
+  margin-bottom: 23px;
+}
+.navi .w ul {
+  margin-left: 47px;
+}
+.navi .w ul li {
+  float: left;
+  color: #fff;
+  line-height: 42px;
+  font-size: 17px;
+  margin-right: 77px;
+}
+.navi .w ul li a {
+  color: #fff;
+  font-size: 17px;
+}
+.navi .w div {
+  line-height: 42px;
+  color: #ffcace;
+  margin-right: 47px;
+}
+.aside {
+  width: 150px;
+}
+.aside .title {
+  background-color: #e01222;
+  padding-left: 10px;
+  height: 37px;
+  line-height: 37px;
+  color: #fff;
+}
+.aside dl {
+  border: 1px solid #dadada;
+  padding-bottom: 13px;
+  border-top: none;
+}
+.aside dl dt {
+  line-height: 26px;
+  padding-left: 18px;
+  background-color: #eeeeee;
+  border-bottom: 1px solid #dadada;
+  margin-bottom: 11px;
+  color: #333333;
+  font-weight: 700;
+}
+.aside dl dd {
+  line-height: 30px;
+  padding-left: 32px;
+}
