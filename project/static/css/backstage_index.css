@@ -1,0 +1,169 @@
+.w .content {
+  width: 1029px;
+  border: 1px solid #dadada;
+  padding-bottom: 53px;
+}
+.w .content .zhuangtai {
+  margin-top: 23px;
+  margin-bottom: 22px;
+  height: 95px;
+}
+.w .content .zhuangtai li {
+  height: 95px;
+  width: 278px;
+  float: left;
+  margin-right: 43px;
+}
+.w .content .zhuangtai li div {
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  left: 162px;
+  top: 22px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.w .content .zhuangtai li span {
+  color: #999999;
+  position: relative;
+  left: 167px;
+  top: 23px;
+}
+.w .content .zhuangtai .sale {
+  margin-left: 49px;
+  background: url('../images/backstage_index/chushouzhong_18.png');
+}
+.w .content .zhuangtai .sale div {
+  color: #6ccac9;
+}
+.w .content .zhuangtai .repository {
+  background: url('../images/backstage_index/kangku_20.png');
+}
+.w .content .zhuangtai .check {
+  background: url('../images/backstage_index/dengdaishenhe_22.png');
+}
+.w .content .zhuangtai .check span {
+  left: 154px;
+}
+.w .content .fengexian {
+  height: 13px;
+  background-color: #f3f3f3;
+  margin-bottom: 31px;
+}
+.w .content .jiaoyidingdan {
+  margin-bottom: 13px;
+  border-bottom: 1px solid #cfd0d6;
+}
+.w .content .jiaoyidingdan span {
+  float: left;
+  font-size: 18px;
+  color: #f3f3f3;
+  font-weight: 700;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.w .content .jiaoyidingdan a {
+  color: #444444;
+  float: right;
+  margin-top: 5px;
+  margin-right: 11px;
+}
+.w .content .function {
+  padding-right: 21px;
+  padding-left: 31px;
+  margin-bottom: 25px;
+}
+.w .content .function ul {
+  float: left;
+}
+.w .content .function ul li {
+  width: 63px;
+  height: 28px;
+  float: left;
+  border: 1px solid #dcdcdc;
+  text-align: center;
+  line-height: 28px;
+  cursor: pointer;
+}
+.w .content .function ul li:first-child {
+  background: url('../images/backstage_index/daifahuo_28.png') no-repeat center center;
+}
+.w .content .function input,
+.w .content .function span {
+  float: right;
+}
+.w .content .function input {
+  height: 28px;
+  width: 169px;
+  border: 1px solid #eeeeee;
+  padding-left: 11px;
+  color: #9c9c9c;
+}
+.w .content .function span {
+  display: inline-block;
+  height: 30px;
+  width: 60px;
+  background-color: #ff6c60;
+  line-height: 30px;
+  text-align: center;
+  color: #fff7f7;
+  cursor: pointer;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.w .content table {
+  width: 1010px;
+  margin: 0px auto;
+}
+.w .content table thead {
+  text-align: center;
+  border-bottom: 1px solid #ff7373;
+}
+.w .content table thead tr {
+  height: 29px;
+}
+.w .content table thead th {
+  height: 29px !important;
+  vertical-align: top;
+}
+.w .content table thead .name {
+  width: 192px;
+}
+.w .content table thead .tele {
+  width: 137px;
+}
+.w .content table thead .goods {
+  width: 100px;
+}
+.w .content table thead .num {
+  width: 85px;
+}
+.w .content table thead .nums {
+  width: 76px;
+}
+.w .content table thead .zhuangtai {
+  width: 80px;
+}
+.w .content table thead .money {
+  width: 112px;
+}
+.w .content table thead .date {
+  width: 120px;
+}
+.w .content table thead .caozuo {
+  width: 114px;
+}
+.w .content table tbody tr {
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+}
+.w .content table tbody tr .fahuozhong {
+  color: #00c850;
+}
+.w .content table tbody tr .daifahuo {
+  color: #fc7671;
+}
+.w .content table tbody tr:nth-child(odd) {
+  background-color: #f1f2f7;
+}

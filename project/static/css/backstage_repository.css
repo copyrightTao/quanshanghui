@@ -1,0 +1,145 @@
+.content {
+  width: 1029px;
+  border: 1px solid #dadada;
+}
+.content thead tr:first-child {
+  background-color: #f4f4f4;
+  height: 44px;
+  border-bottom: 1px solid #dadada;
+}
+.content thead tr:first-child th {
+  color: #333333;
+  padding-left: 21px;
+  text-align: left;
+}
+.content thead tr:last-child {
+  border-bottom: 1px solid #dadada;
+}
+.content thead tr:last-child th {
+  text-align: center;
+  height: 57px;
+  color: #333333;
+  font-weight: 700;
+}
+.content thead tr:last-child .checkAll {
+  width: 150px;
+}
+.content thead tr:last-child .checkAll label {
+  color: #4b4b4b;
+  font-weight: 500;
+  margin: 0 6px;
+}
+.content thead tr:last-child .checkAll img {
+  cursor: pointer;
+}
+.content thead tr:last-child .name {
+  width: 267px;
+}
+.content thead tr:last-child .price {
+  width: 125px;
+}
+.content thead tr:last-child .star {
+  width: 106px;
+}
+.content thead tr:last-child .num {
+  width: 102px;
+}
+.content thead tr:last-child .time {
+  width: 148px;
+}
+.content tbody tr {
+  height: 102px;
+  border-bottom: 1px solid #dadada;
+}
+.content tbody tr td {
+  text-align: center;
+}
+.content tbody tr td:first-child {
+  text-align: left;
+  padding-left: 18px;
+}
+.content tbody tr td:first-child .checkbox {
+  margin-right: 26px;
+}
+.content tbody tr .price {
+  color: #ee3a3a;
+}
+.content tbody tr .star {
+  color: #ee3a3a;
+}
+.content tbody tr .caozuo a {
+  color: #2467a6;
+}
+.content tbody .changePink {
+  background-color: #fff0f0;
+}
+.content tfoot {
+  border-bottom: 1px solid #dadada;
+}
+.content tfoot tr {
+  text-align: left;
+  height: 57px;
+  color: #333333;
+}
+.content tfoot tr td {
+  padding-left: 18px;
+}
+.content tfoot tr td .gongneng {
+  float: left;
+  margin-top: 26px;
+}
+.content tfoot tr td .gongneng span {
+  margin-left: 37px;
+  margin-right: 9px;
+}
+.content tfoot tr td .gongneng select {
+  width: 75px;
+  height: 29px;
+  border: 1px solid #bbbbbb;
+  padding-left: 20px;
+}
+.content tfoot tr td .page_num {
+  margin-top: 23px;
+}
+.content tfoot tr td .page_num > div {
+  float: right;
+  margin-bottom: 25px;
+}
+.content tfoot tr td .page_num > div > div,
+.content tfoot tr td .page_num > div > ul {
+  float: left;
+}
+.content tfoot tr td .page_num > div ul li {
+  float: left;
+  line-height: 26px;
+  border: 1px solid #dadada;
+  margin-right: 5px;
+}
+.content tfoot tr td .page_num > div ul li a {
+  display: block;
+}
+.content tfoot tr td .page_num > div ul .first_page a,
+.content tfoot tr td .page_num > div ul .up_page a,
+.content tfoot tr td .page_num > div ul .next_page a,
+.content tfoot tr td .page_num > div ul .last_page a {
+  padding: 0px 17px;
+}
+.content tfoot tr td .page_num > div ul .page_number a {
+  padding: 0px 9px;
+}
+.content tfoot tr td .page_num > div .totle_page {
+  margin-top: 5px;
+  margin-right: 13px;
+}
+.content tfoot tr td .page_num .changeRed {
+  background-color: #e61010;
+  color: #fff;
+}
+.content tfoot tr label {
+  color: #4b4b4b;
+  font-weight: 500;
+  margin: 0 6px;
+}
+.content tfoot tr img {
+  cursor: pointer;
+}
