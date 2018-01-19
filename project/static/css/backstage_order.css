@@ -1,0 +1,234 @@
+.content {
+  width: 1029px;
+  border: 1px solid #dadada;
+  display: table-cell;
+  vertical-align: middle;
+}
+.content .option {
+  height: 44px;
+  border-bottom: 1px solid #dadada;
+  background-color: #f4f4f4;
+}
+.content .option #test1 {
+  margin-left: 5px;
+}
+.content .option #test2 {
+  margin-right: 8px;
+}
+.content .option li {
+  float: left;
+  width: 90px;
+  line-height: 44px;
+  text-align: center;
+  cursor: pointer;
+}
+.content .option .changePink {
+  color: #da0011;
+  font-weight: 700;
+  background-image: url('../images/backstage_order/all_03.png');
+  border-bottom: 1px solid #fff;
+}
+.content .option i {
+  font-size: 18px;
+  position: relative;
+  top: 5px;
+}
+.content .option .layui-input {
+  width: 105px;
+  height: 28px;
+  display: inline-block;
+  background: url('../images/backstage_order/calendar.png') no-repeat 75px 2px;
+  background-color: #fff;
+  margin-top: 8px;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+}
+.content .option .buyer {
+  margin-top: 8px;
+  width: 85px;
+  height: 26px;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+  margin-right: 5px;
+  padding-left: 10px;
+}
+.content .option .orderNum {
+  width: 125px;
+  height: 26px;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+  margin-top: 8px;
+  padding-left: 27px;
+  margin-right: 6px;
+}
+.content .option a {
+  display: inline-block;
+  height: 26px;
+  width: 55px;
+  background-color: #da0011;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+  position: relative;
+  top: 5px;
+  color: #fff;
+  text-align: center;
+  line-height: 26px;
+}
+.content table thead tr {
+  height: 57px;
+  border-bottom: 1px solid #dadada;
+}
+.content table thead tr .name {
+  width: 405px;
+}
+.content table thead tr .price {
+  width: 90px;
+}
+.content table thead tr .num {
+  width: 90px;
+}
+.content table thead tr .buyer {
+  width: 100px;
+}
+.content table thead tr .status {
+  width: 120px;
+}
+.content table thead tr .date {
+  width: 116px;
+}
+.content table thead tr .operation {
+  width: 110px;
+}
+.content table tbody tr {
+  height: 102px;
+  border-bottom: 1px solid #dadada;
+}
+.content table tbody tr td {
+  text-align: center;
+  position: relative;
+}
+.content table tbody tr td .yifahuo {
+  color: #7bb467;
+  font-weight: 500;
+  display: block;
+}
+.content table tbody tr td .quxiao {
+  color: #bababa;
+  display: block;
+}
+.content table tbody tr td:first-child img {
+  margin-left: 20px;
+  margin-right: 18px;
+  border: 1px solid #dadada;
+}
+.content table tbody tr td:first-child div {
+  width: 260px;
+  position: absolute;
+  top: 50%;
+  height: 56px;
+  margin-top: -28px;
+  margin-left: 118px;
+  text-align: left;
+}
+.content table tbody tr td:first-child div span {
+  color: #ea696a;
+}
+.content table tbody tr td:nth-child(2),
+.content table tbody tr td:nth-child(3) {
+  color: #ee3a3a;
+}
+.content table tbody tr td:nth-child(5) a {
+  color: #0c2cba;
+}
+.content table tbody tr td:nth-child(5) span {
+  display: block;
+}
+.content table tbody tr td:nth-child(5) .weifahuo {
+  color: #e46066;
+  font-weight: 700;
+  display: block;
+}
+.content table tbody tr td:nth-child(6) div {
+  color: #da0011;
+  font-weight: 700;
+}
+.content table tbody tr td:last-child a {
+  color: #6789b6;
+}
+.content table tbody .daifahuo {
+  background-color: #fff0f0;
+}
+.content table tbody .dingdanquxiao {
+  background-color: #f3f3f3;
+}
+.content table tfoot {
+  border-bottom: 1px solid #dadada;
+}
+.content table tfoot tr {
+  text-align: left;
+  height: 57px;
+  color: #333333;
+}
+.content table tfoot tr td {
+  padding-left: 18px;
+}
+.content table tfoot tr td .gongneng {
+  float: left;
+  margin-top: 26px;
+}
+.content table tfoot tr td .gongneng span {
+  margin-left: 37px;
+  margin-right: 9px;
+  color: #999999;
+}
+.content table tfoot tr td .gongneng select {
+  width: 75px;
+  height: 29px;
+  border: 1px solid #bbbbbb;
+  padding-left: 20px;
+}
+.content table tfoot tr td .page_num {
+  margin-top: 23px;
+}
+.content table tfoot tr td .page_num > div {
+  float: right;
+  margin-bottom: 25px;
+}
+.content table tfoot tr td .page_num > div > div,
+.content table tfoot tr td .page_num > div > ul {
+  float: left;
+}
+.content table tfoot tr td .page_num > div ul li {
+  float: left;
+  line-height: 26px;
+  border: 1px solid #dadada;
+  margin-right: 5px;
+}
+.content table tfoot tr td .page_num > div ul li a {
+  display: block;
+}
+.content table tfoot tr td .page_num > div ul .first_page a,
+.content table tfoot tr td .page_num > div ul .up_page a,
+.content table tfoot tr td .page_num > div ul .next_page a,
+.content table tfoot tr td .page_num > div ul .last_page a {
+  padding: 0px 17px;
+}
+.content table tfoot tr td .page_num > div ul .page_number a {
+  padding: 0px 9px;
+}
+.content table tfoot tr td .page_num > div .totle_page {
+  margin-top: 5px;
+  margin-right: 13px;
+}
+.content table tfoot tr td .page_num .changeRed {
+  background-color: #e61010;
+  color: #fff;
+}
+.content table tfoot tr label {
+  color: #4b4b4b;
+  font-weight: 500;
+  margin: 0 6px;
+}
+.content table tfoot tr img {
+  cursor: pointer;
+}

@@ -1,0 +1,252 @@
+.content {
+    width: 1029px;
+    border: 1px solid #dadada;
+    display: table-cell;
+    vertical-align: middle;
+    .option {
+        height: 44px;
+        border-bottom: 1px solid #dadada;
+        background-color: #f4f4f4;
+        #test1 {
+            margin-left: 5px;
+        }
+        #test2 {
+            margin-right: 8px;
+        }
+        li {
+            float: left;
+            width: 90px;
+            line-height: 44px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .changePink {
+            color: #da0011;
+            font-weight: 700;
+            background-image: url('../images/backstage_order/all_03.png');
+            border-bottom: 1px solid #fff;
+        }
+        i {
+            font-size: 18px;
+            position: relative;
+            top: 5px;
+        }
+        .layui-input {
+            width: 105px;
+            height: 28px;
+            display: inline-block;
+            background: url('../images/backstage_order/calendar.png') no-repeat 75px 2px;
+            background-color: #fff;
+            margin-top: 8px;
+            border: 1px solid #dadada;
+            border-radius: 2px;
+        }
+        .buyer {
+            margin-top: 8px;
+            width: 85px;
+            height: 26px;
+            border: 1px solid #dadada;
+            border-radius: 2px;
+            margin-right: 5px;
+            padding-left: 10px;
+        }
+        .orderNum {
+            width: 125px;
+            height: 26px;
+            border: 1px solid #dadada;
+            border-radius: 2px;
+            margin-top: 8px;
+            padding-left: 27px;
+            margin-right: 6px;
+        }
+        a {
+            display: inline-block;
+            height: 26px;
+            width: 55px;
+            background-color: #da0011;
+            border: 1px solid #dadada;
+            border-radius: 2px;
+            position: relative;
+            top: 5px;
+            color: #fff;
+            text-align: center;
+            line-height: 26px;
+        }
+    }
+    table {
+        thead {
+            tr {
+                height: 57px;
+                border-bottom: 1px solid #dadada;
+                .name {
+                    width: 405px;
+                }
+                .price {
+                    width: 90px;
+                }
+                .num {
+                    width: 90px;
+                }
+                .buyer {
+                    width: 100px;
+                }
+                .status {
+                    width: 120px;
+                }
+                .date {
+                    width: 116px;
+                }
+                .operation {
+                    width: 110px;
+                }
+            }
+        }
+        tbody {
+            tr {
+                height: 102px;
+                border-bottom: 1px solid #dadada;
+                td {
+                    text-align: center;
+                    position: relative;
+                    .yifahuo {
+                        color: #7bb467;
+                        font-weight: 500;
+                        display: block;
+                    }
+                    .quxiao {
+                        color: #bababa;
+                        display: block;
+                    }
+                }
+                td:first-child {
+                    img {
+                        margin-left: 20px;
+                        margin-right: 18px;
+                        border: 1px solid #dadada;
+                    }
+                    div {
+                        width: 260px;
+                        position: absolute;
+                        top: 50%;
+                        height: 56px;
+                        margin-top: -28px;
+                        margin-left: 118px;
+                        text-align: left;
+                        span {
+                            color: #ea696a;
+                        }
+                    }
+                }
+                td:nth-child(2),
+                td:nth-child(3) {
+                    color: #ee3a3a;
+                }
+                td:nth-child(5) {
+                    a {
+                        color: #0c2cba;
+                    }
+                    span {
+                        display: block;
+                    }
+                    .weifahuo {
+                        color: #e46066;
+                        font-weight: 700;
+                        display: block;
+                    }
+                }
+                td:nth-child(6) {
+                    div {
+                        color: #da0011;
+                        font-weight: 700;
+                    }
+                }
+                td:last-child {
+                    a {
+                        color: #6789b6;
+                    }
+                }
+            }
+            .daifahuo {
+                background-color: #fff0f0;
+            }
+            .dingdanquxiao {
+                background-color: #f3f3f3;
+            }
+        }
+        tfoot {
+            border-bottom: 1px solid #dadada;
+            tr {
+                text-align: left;
+                height: 57px;
+                color: #333333;
+                td {
+                    padding-left: 18px;
+                    .gongneng {
+                        float: left;
+                        margin-top: 26px;
+                        span {
+                            margin-left: 37px;
+                            margin-right: 9px;
+                            color: #999999;
+                        }
+                        select {
+                            width: 75px;
+                            height: 29px;
+                            border: 1px solid #bbbbbb;
+                            padding-left: 20px;
+                        }
+                    }
+                    .page_num {
+                        margin-top: 23px;
+                        >div {
+                            float: right;
+                            margin-bottom: 25px;
+                            >div,
+                            >ul {
+                                float: left;
+                            }
+                            ul {
+                                li {
+                                    float: left;
+                                    line-height: 26px;
+                                    border: 1px solid #dadada;
+                                    margin-right: 5px;
+                                    a {
+                                        display: block;
+                                    }
+                                }
+                                .first_page,
+                                .up_page,
+                                .next_page,
+                                .last_page {
+                                    a {
+                                        padding: 0px 17px;
+                                    }
+                                }
+                                .page_number a {
+                                    padding: 0px 9px;
+                                }
+                            }
+                            .totle_page {
+                                margin-top: 5px;
+                                margin-right: 13px;
+                            }
+                        }
+                        .changeRed {
+                            background-color: #e61010;
+                            color: #fff;
+                        }
+                    }
+                }
+                label {
+                    color: #4b4b4b;
+                    font-weight: 500;
+                    margin: 0 6px;
+                }
+                img {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
