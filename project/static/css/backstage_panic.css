@@ -1,0 +1,215 @@
+.content {
+  width: 1029px;
+  border: 1px solid #dadada;
+  display: table-cell;
+  vertical-align: middle;
+}
+.content .option {
+  height: 44px;
+  border-bottom: 1px solid #dadada;
+  background-color: #f4f4f4;
+}
+.content .option li {
+  float: left;
+  width: 90px;
+  line-height: 44px;
+  text-align: center;
+  cursor: pointer;
+}
+.content .option .changePink {
+  color: #da0011;
+  font-weight: 700;
+  background-image: url('../images/backstage_order/all_03.png');
+  border-bottom: 1px solid #fff;
+}
+.content .option span {
+  margin-left: 280px;
+  height: 44px;
+  line-height: 44px;
+}
+.content .option select {
+  width: 135px;
+  height: 28px;
+  border: 1px solid #dadada;
+  margin-left: 5px;
+  border-radius: 2px;
+  color: #c4c4c4;
+}
+.content .option ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #bbbbbb;
+}
+.content .option :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #bbbbbb;
+}
+.content .option ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #bbbbbb;
+}
+.content .option :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #bbbbbb;
+}
+.content .option .panicName {
+  width: 235px;
+  height: 26px;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+  padding-left: 27px;
+  margin-right: 6px;
+  margin-left: 15px;
+  color: #bbbbbb;
+}
+.content .option a {
+  display: inline-block;
+  height: 26px;
+  width: 55px;
+  background-color: #da0011;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+  position: relative;
+  top: 1px;
+  color: #fff;
+  text-align: center;
+  line-height: 26px;
+}
+.content table thead tr {
+  height: 57px;
+  border-bottom: 1px solid #dadada;
+}
+.content table thead tr .name {
+  width: 405px;
+}
+.content table thead tr .price {
+  width: 128px;
+}
+.content table thead tr .start {
+  width: 145px;
+}
+.content table thead tr .ending {
+  width: 140px;
+}
+.content table thead tr .buyed {
+  width: 110px;
+}
+.content table thead tr .status {
+  width: 110px;
+}
+.content table tbody tr {
+  height: 102px;
+  border-bottom: 1px solid #dadada;
+}
+.content table tbody tr td {
+  text-align: center;
+  position: relative;
+}
+.content table tbody tr td .yifahuo {
+  color: #7bb467;
+  font-weight: 500;
+  display: block;
+}
+.content table tbody tr td .quxiao {
+  color: #bababa;
+  display: block;
+}
+.content table tbody tr td:first-child img {
+  margin-left: 20px;
+  margin-right: 18px;
+  border: 1px solid #dadada;
+}
+.content table tbody tr td:first-child div {
+  width: 260px;
+  position: absolute;
+  top: 50%;
+  height: 56px;
+  margin-top: -28px;
+  margin-left: 118px;
+  text-align: left;
+}
+.content table tbody tr td:first-child div span {
+  color: #ea696a;
+}
+.content table tbody tr td:nth-child(2) {
+  color: #ee3a3a;
+}
+.content table tbody tr td:last-child {
+  color: #005aa0;
+}
+.content table tbody tr .changeRed {
+  color: #e61010;
+}
+.content table tbody .activeOver td:nth-child(n+3) {
+  color: #bbbbbb;
+}
+.content table tfoot {
+  border-bottom: 1px solid #dadada;
+}
+.content table tfoot tr {
+  text-align: left;
+  height: 57px;
+  color: #333333;
+}
+.content table tfoot tr td {
+  padding-left: 18px;
+}
+.content table tfoot tr td .gongneng {
+  float: left;
+  margin-top: 26px;
+}
+.content table tfoot tr td .gongneng span {
+  margin-left: 37px;
+  margin-right: 9px;
+  color: #999999;
+}
+.content table tfoot tr td .gongneng select {
+  width: 75px;
+  height: 29px;
+  border: 1px solid #bbbbbb;
+  padding-left: 20px;
+}
+.content table tfoot tr td .page_num {
+  margin-top: 23px;
+}
+.content table tfoot tr td .page_num > div {
+  float: right;
+  margin-bottom: 25px;
+}
+.content table tfoot tr td .page_num > div > div,
+.content table tfoot tr td .page_num > div > ul {
+  float: left;
+}
+.content table tfoot tr td .page_num > div ul li {
+  float: left;
+  line-height: 26px;
+  border: 1px solid #dadada;
+  margin-right: 5px;
+}
+.content table tfoot tr td .page_num > div ul li a {
+  display: block;
+}
+.content table tfoot tr td .page_num > div ul .first_page a,
+.content table tfoot tr td .page_num > div ul .up_page a,
+.content table tfoot tr td .page_num > div ul .next_page a,
+.content table tfoot tr td .page_num > div ul .last_page a {
+  padding: 0px 17px;
+}
+.content table tfoot tr td .page_num > div ul .page_number a {
+  padding: 0px 9px;
+}
+.content table tfoot tr td .page_num > div .totle_page {
+  margin-top: 5px;
+  margin-right: 13px;
+}
+.content table tfoot tr td .page_num .changeRed {
+  background-color: #e61010;
+  color: #fff;
+}
+.content table tfoot tr label {
+  color: #4b4b4b;
+  font-weight: 500;
+  margin: 0 6px;
+}
+.content table tfoot tr img {
+  cursor: pointer;
+}

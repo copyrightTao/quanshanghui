@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../../libs/jquery/jquery.js"></script>
+    <link rel="stylesheet" href="../../libs/layui/css/layui.css">
+    <script src="../../libs/layui/layui.js"></script>
+    <link rel="stylesheet" href="../css/backstage.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/backstage_release.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../js/backstage_release.js"></script>
+    <!-- 在线word编辑器插件 -->
+    <link href="../../libs/froala_editor/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../../libs/froala_editor/css/froala_editor.min.css" rel="stylesheet" type="text/css">
+    <script src="../../libs/froala_editor/js/libs/jquery-1.11.1.min.js"></script>
+    <script src="../../libs/froala_editor/js/froala_editor.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="../js/froala_editor_ie8.min.js"></script>
+    <![endif]-->
+    <script src="../../libs/froala_editor/js/plugins/tables.min.js"></script>
+    <script src="../../libs/froala_editor/js/plugins/lists.min.js"></script>
+    <script src="../../libs/froala_editor/js/plugins/colors.min.js"></script>
+    <script src="../../libs/froala_editor/js/plugins/media_manager.min.js"></script>
+    <script src="../../libs/froala_editor/js/plugins/font_family.min.js"></script>
+    <script src="../../libs/froala_editor/js/plugins/font_size.min.js"></script>
+    <script src="../../libs/froala_editor/js/plugins/block_styles.min.js"></script>
+    <script src="../../libs/froala_editor/js/plugins/video.min.js"></script>
+</head>
+
+<body>
+    <script src="../js/common/backstage.js"></script>
+    <div class="w">
+        <div class="aside fl">
+            <div class="title">
+                我的店铺
+            </div>
+            <dl>
+                <dt>
+                    <a href="javascript:;">商品</a>
+                </dt>
+                <dd>
+                    <a href="javascript:;" style="color:#e2313b;font-weight:700;">商品发布</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">出售中的商品</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">仓库中的商品</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <a href="javascript:;">订单</a>
+                </dt>
+                <dd>
+                    <a href="javascript:;">交易订单</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <a href="javascript:;">促销</a>
+                </dt>
+                <dd>
+                    <a href="javascript:;">抢购管理</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="content fr">
+            <div class="title">
+                商品提交
+            </div>
+            <div class="main">
+                <div class="title">商品基本信息</div>
+                <div class="kind">
+                    <span>商品分类:</span>
+                    <select name="" id="">
+                        <option value="">服装鞋帽</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">女装</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">长裙</option>
+                    </select>
+                </div>
+                <div class="name">
+                    <span>商品名称:</span>
+                    <input type="text" name="" id="">
+                    <br>
+                    <div>(商品名称长度至少3个字符,最长50个汉字)</div>
+                </div>
+                <div class="maidian">
+                    <span>商品卖点:</span>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <br>
+                    <div>(商品卖点最长不能超过140个汉字)</div>
+                </div>
+                <div class="price">
+                    <span>商品价格:</span>
+                    <input type="text">
+                    <div>价格必须是0.01~99999999之间的数字</div>
+                </div>
+                <div class="star">
+                    <span>商品价格:</span>
+                    <input type="text">
+                    <div>价格必须是0.01~99999999之间的数字</div>
+                </div>
+                <div class="kucun">
+                    <span>库存:</span>
+                    <input type="text">
+                </div>
+                <div class="yongjin">
+                    <span>佣金:</span>
+                    <input type="text">
+                    <div>%</div>
+                </div>
+                <div class="vr">
+                    <span>商品VR展示:</span>
+                    <input type="text">
+                    <div>填写商品VR连接URL地址</div>
+                </div>
+                <div class="pinpai">
+                    <span>商品品牌:</span>
+                    <select name="" id=""></select>
+                </div>
+                <div class="image">
+                    <span>
+                        商品图片:
+                    </span>
+                    <img src="../images/backstage_release/push_03.png" alt="">
+                    <img src="../images/backstage_release/add_05.png" alt="">
+                    <br>
+                    <a href="javascript:;" class="push">上传</a>
+                    <a href="javascript:;" class="delete">删除</a>
+                    <p>支持jpg、gif、png格式上传,建议使用尺寸800*800像素 大小不超过1M的正方形图片.最多可上传五张
+                    </p>
+                </div>
+                <div class="description">
+                    <span>商品描述:</span>
+                    <section id="editor">
+                        <form>
+                            <textarea id='edit' style="margin-top: 30px;">
+                            </textarea>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <script src="../js/common/footer.js"></script>
+</body>
+
+</html>

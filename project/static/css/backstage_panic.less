@@ -1,0 +1,229 @@
+.content {
+    width: 1029px;
+    border: 1px solid #dadada;
+    display: table-cell;
+    vertical-align: middle;
+    .option {
+        height: 44px;
+        border-bottom: 1px solid #dadada;
+        background-color: #f4f4f4;
+        li {
+            float: left;
+            width: 90px;
+            line-height: 44px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .changePink {
+            color: #da0011;
+            font-weight: 700;
+            background-image: url('../images/backstage_order/all_03.png');
+            border-bottom: 1px solid #fff;
+        }
+        span {
+            margin-left: 280px;
+            height: 44px;
+            line-height: 44px;
+        }
+        select {
+            width: 135px;
+            height: 28px;
+            border: 1px solid #dadada;
+            margin-left: 5px;
+            border-radius: 2px;
+            color: #c4c4c4;
+        }
+         ::-webkit-input-placeholder {
+            /* WebKit browsers */
+            color: #bbbbbb;
+        }
+        :-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: #bbbbbb;
+        }
+        ::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: #bbbbbb;
+        }
+        :-ms-input-placeholder {
+            /* Internet Explorer 10+ */
+            color: #bbbbbb;
+        }
+        .panicName {
+            width: 235px;
+            height: 26px;
+            border: 1px solid #dadada;
+            border-radius: 2px;
+            padding-left: 27px;
+            margin-right: 6px;
+            margin-left: 15px;
+            color: #bbbbbb;
+        }
+        a {
+            display: inline-block;
+            height: 26px;
+            width: 55px;
+            background-color: #da0011;
+            border: 1px solid #dadada;
+            border-radius: 2px;
+            position: relative;
+            top: 1px;
+            color: #fff;
+            text-align: center;
+            line-height: 26px;
+        }
+    }
+    table {
+        thead {
+            tr {
+                height: 57px;
+                border-bottom: 1px solid #dadada;
+                .name {
+                    width: 405px;
+                }
+                .price {
+                    width: 128px;
+                }
+                .start {
+                    width: 145px;
+                }
+                .ending {
+                    width: 140px;
+                }
+                .buyed {
+                    width: 110px;
+                }
+                .status {
+                    width: 110px;
+                }
+            }
+        }
+        tbody {
+            tr {
+                height: 102px;
+                border-bottom: 1px solid #dadada;
+                td {
+                    text-align: center;
+                    position: relative;
+                    .yifahuo {
+                        color: #7bb467;
+                        font-weight: 500;
+                        display: block;
+                    }
+                    .quxiao {
+                        color: #bababa;
+                        display: block;
+                    }
+                }
+                td:first-child {
+                    img {
+                        margin-left: 20px;
+                        margin-right: 18px;
+                        border: 1px solid #dadada;
+                    }
+                    div {
+                        width: 260px;
+                        position: absolute;
+                        top: 50%;
+                        height: 56px;
+                        margin-top: -28px;
+                        margin-left: 118px;
+                        text-align: left;
+                        span {
+                            color: #ea696a;
+                        }
+                    }
+                }
+                td:nth-child(2) {
+                    color: #ee3a3a;
+                }
+                td:last-child {
+                    color: #005aa0;
+                }
+                .changeRed {
+                    color: #e61010;
+                }
+            }
+            .activeOver {
+                 td:nth-child(n+3) {
+                     color: #bbbbbb;
+                 }
+            }
+        }
+        tfoot {
+            border-bottom: 1px solid #dadada;
+            tr {
+                text-align: left;
+                height: 57px;
+                color: #333333;
+                td {
+                    padding-left: 18px;
+                    .gongneng {
+                        float: left;
+                        margin-top: 26px;
+                        span {
+                            margin-left: 37px;
+                            margin-right: 9px;
+                            color: #999999;
+                        }
+                        select {
+                            width: 75px;
+                            height: 29px;
+                            border: 1px solid #bbbbbb;
+                            padding-left: 20px;
+                        }
+                    }
+                    .page_num {
+                        margin-top: 23px;
+                        >div {
+                            float: right;
+                            margin-bottom: 25px;
+                            >div,
+                            >ul {
+                                float: left;
+                            }
+                            ul {
+                                li {
+                                    float: left;
+                                    line-height: 26px;
+                                    border: 1px solid #dadada;
+                                    margin-right: 5px;
+                                    a {
+                                        display: block;
+                                    }
+                                }
+                                .first_page,
+                                .up_page,
+                                .next_page,
+                                .last_page {
+                                    a {
+                                        padding: 0px 17px;
+                                    }
+                                }
+                                .page_number a {
+                                    padding: 0px 9px;
+                                }
+                            }
+                            .totle_page {
+                                margin-top: 5px;
+                                margin-right: 13px;
+                            }
+                        }
+                        .changeRed {
+                            background-color: #e61010;
+                            color: #fff;
+                        }
+                    }
+                }
+                label {
+                    color: #4b4b4b;
+                    font-weight: 500;
+                    margin: 0 6px;
+                }
+                img {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
