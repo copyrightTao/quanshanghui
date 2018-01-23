@@ -1,0 +1,127 @@
+body {
+  font-size: 14px;
+}
+.daohang {
+  background-color: #da0011;
+}
+.daohang li a {
+  color: #ffffff;
+}
+.enter_banner {
+  height: 482px;
+  background: url('../images/enter_index/banner_03.png') no-repeat center center;
+  background-size: cover;
+  padding-top: 22px;
+}
+.enter_banner .content {
+  height: 380px;
+  width: 310px;
+  background-color: #386773;
+  opacity: 0.8;
+  padding-left: 16px;
+  padding-top: 26px;
+  color: #ffffff;
+  line-height: 30px;
+}
+.enter_banner .content span {
+  color: #ffc600;
+}
+.enter_banner .content .title {
+  color: #ffc600;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 17px;
+}
+.enter_banner .content img {
+  cursor: pointer;
+  margin-top: 56px;
+}
+.enter_banner .content a {
+  position: relative;
+  top: 29px;
+  color: #ffc600;
+  margin-left: 31px;
+}
+.liucheng {
+  background: url('../images/enter_index/liucheng_07.png') no-repeat center center;
+  background-size: cover;
+  height: 526px;
+}
+.zhinan {
+  background: url('../images/enter_index/enterzhinan_08.png') no-repeat center center;
+  background-size: cover;
+  height: 630px;
+}
+.zhinan .w {
+  position: relative;
+}
+.zhinan .w > div {
+  position: absolute;
+}
+.zhinan .w > div .title {
+  color: #ffc600;
+  font-size: 24px;
+  line-height: 30px;
+}
+.zhinan .w > div .content {
+  color: #ffffff;
+  line-height: 30px;
+}
+.zhinan .w .zhaoshang {
+  width: 290px;
+  top: 90px;
+  left: 108px;
+}
+.zhinan .w .zhaoshang .title {
+  margin-left: 63px;
+}
+.zhinan .w .biaozhun {
+  width: 220px;
+  color: #ffffff;
+  right: 100px;
+  top: 126px;
+}
+.zhinan .w .yaoqiu {
+  width: 290px;
+  top: 390px;
+  left: 108px;
+}
+.zhinan .w .yaoqiu .title {
+  margin-left: 63px;
+}
+.zhinan .w .zfbiaozhun {
+  width: 220px;
+  right: 100px;
+  top: 391px;
+}
+.my_advantage {
+  height: 544px;
+  background: url('../images/enter_index/lijienter_11.png') no-repeat center center;
+  background-size: cover;
+}
+.my_advantage .w {
+  position: relative;
+}
+.my_advantage .w .advantage {
+  position: absolute;
+  width: 425px;
+  right: 120px;
+  top: 90px;
+  color: #272331;
+}
+.my_advantage .w .advantage .title {
+  font-size: 24px;
+  line-height: 36px;
+}
+.my_advantage .w .advantage .content {
+  line-height: 30px;
+}
+.my_advantage .w img {
+  cursor: pointer;
+  height: 71px;
+  width: 322px;
+  position: absolute;
+  left: 50%;
+  margin-left: -161px;
+  top: 470px;
+}

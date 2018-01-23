@@ -123,11 +123,27 @@
   position: absolute;
   top: 0px;
 }
-.content .main .description section {
-  display: inline-block !important;
+.content .main .description > div {
   width: 805px;
+  height: 530px;
   margin-left: 105px;
+  margin-bottom: 33px;
 }
 .content .main .description section .froala-element {
   height: 430px;
+}
+.content .main .anniu {
+  margin-left: 105px;
+  margin-bottom: 58px;
+}
+.content .main .anniu img {
+  cursor: pointer;
+}
+.content .main > img {
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.content .main .giveup {
+  margin-left: 350px;
+  margin-right: 16px;
 }
