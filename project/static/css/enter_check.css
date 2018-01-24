@@ -1,0 +1,84 @@
+body {
+  font-size: 14px;
+}
+.daohang {
+  background-color: #da0011;
+}
+.daohang li a {
+  color: #ffffff;
+}
+.agreement_main {
+  margin-top: 34px;
+}
+.agreement_main .aside {
+  width: 150px;
+}
+.agreement_main .aside .shenqing {
+  background-color: #e01222;
+  line-height: 37px;
+  color: #ffffff;
+  padding-left: 10px;
+}
+.agreement_main .aside dl {
+  border: 1px solid #dadada;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.agreement_main .aside dl dt {
+  height: 26px;
+  border-bottom: 1px solid #dadada;
+  line-height: 26px;
+  padding-left: 18px;
+  color: #333333;
+  background-color: #eeeeee;
+  margin-bottom: 19px;
+}
+.agreement_main .aside dl dd {
+  padding-left: 32px;
+  margin-bottom: 16px;
+  color: #333333;
+  cursor: pointer;
+}
+.agreement_main .aside dl .changeRed {
+  color: #da0011;
+}
+.agreement_main .xieyi {
+  width: 1029px;
+  border: 1px solid #dadada;
+  padding-bottom: 30px;
+}
+.agreement_main .xieyi .title {
+  height: 14px;
+  padding: 15px 24px;
+  background-color: #f4f4f4;
+}
+.agreement_main .xieyi .title a,
+.agreement_main .xieyi .title span {
+  position: relative;
+  top: -3px;
+}
+.agreement_main .xieyi .title .changeRed {
+  color: #da0011;
+}
+.agreement_main .xieyi .title span {
+  margin: 0 26px;
+}
+.agreement_main .xieyi .content {
+  height: 430px;
+  padding-top: 105px;
+}
+.agreement_main .xieyi .content img {
+  display: block;
+  height: 160px;
+  width: 160px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+.agreement_main .xieyi .content div {
+  font-size: 24px;
+  font-weight: normal;
+  color: #da0011;
+  margin: 0 auto;
+  width: 235px;
+  font-weight: 700;
+}

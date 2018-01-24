@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/enter_store.css">
+    <link rel="stylesheet" href="../../libs/layui/css/layui.css">
+    <script src="../../libs/jquery/jquery.js"></script>
+    <script src="../../libs/layui/layui.js"></script>
+    <script src="../js/enter_store.js"></script>
+    <script src="../js/common/jsAddresss.js"></script>
+</head>
+
+<body>
+    <script src="../js/common/header.js"></script>
+    <div class="agreement_main w">
+        <div class="aside fl">
+            <div class="shenqing">
+                商家入驻申请
+            </div>
+            <dl>
+                <dt>入驻流程</dt>
+                <dd>签署入驻协议</dd>
+                <dd class="changeRed">商家信息提交</dd>
+                <dd>平台审核资质</dd>
+            </dl>
+            <img src="../images/enter_agreement/cuxiao_03.png" alt="">
+        </div>
+        <div class="xieyi fr">
+            <div class="title">
+                <a href="javascript:;">签署入驻协议</a>
+                <span>></span>
+                <a href="javascript:;" class="changeRed">商家信息提交</a>
+                <span>></span>
+                <a href="javascript:;">平台审核资质</a>
+            </div>
+            <div class="content">
+                <div class="notice">
+                    <div class="title">
+                        注意事项:
+                    </div>
+                    <div class="notice_content">
+                        以下所需要上传的电子版资质文件仅支持jpg\gif\png格式图片，大小请控制在1M之内 .
+                    </div>
+                </div>
+                <div class="content_main">
+                    <div class="msg">公司及联系人信息</div>
+                    <div class="companyName">
+                        <span>公司名称:</span>
+                        <input type="text">
+                    </div>
+                    <div class="company_address">
+                        <span>公司所在地:</span>
+                        <select id="cmbProvince" name="cmbProvince"></select>
+                        <select id="cmbCity" name="cmbCity"></select>
+                        <select id="cmbArea" name="cmbArea"></select>
+                    </div>
+                    <div class="company_moreAddress">
+                        <span>公司详细地址:</span>
+                        <input type="text">
+                    </div>
+                    <div class="company_tel">
+                        <span>公司电话:</span>
+                        <input type="text" class="quhao">
+                        <i>-</i>
+                        <input type="text" class="telNum">
+                    </div>
+                    <div class="staffNum">
+                        <span>员工总数:</span>
+                        <input type="text">
+                        <i>人</i>
+                    </div>
+                    <div class="money">
+                        <span>注册资金:</span>
+                        <input type="text">
+                    </div>
+                    <div class="lianxiName">
+                        <span>联系人姓名:</span>
+                        <input type="text">
+                    </div>
+                    <div class="lianxiTel">
+                        <span>联系人电话</span>
+                        <input type="text">
+                    </div>
+                    <div class="email">
+                        <span>电子邮箱:</span>
+                        <input type="text">
+                    </div>
+                    <div class="msg">公司及联系人信息</div>
+                    <div class="licenseNum">
+                        <span>营业执照编号:</span>
+                        <input type="text">
+                    </div>
+                    <div class="licenseAddress">
+                        <span>营业执照所在地:</span>
+                        <select id="mbProvince" name="cmbProvince"></select>
+                        <select id="mbCity" name="cmbCity"></select>
+                        <select id="mbArea" name="cmbArea"></select>
+                    </div>
+                    <div class="youxiaoqi">
+                        <span>营业执照有效期:</span>
+                        <input type="text" class="layui-input" id="test1">
+                        <input type="text" class="layui-input" id="test2">
+                    </div>
+                    <div class="jingyingfanwei">
+                        <span>法定经营范围:</span>
+                        <textarea name="" id=""></textarea>
+                    </div>
+                    <div class="yingyezhizhao">
+                        <span>营业执照电子版:</span>
+                        <input type="file" id="file">
+                        <label for="file">
+                            <a href="javascript:;">选择文件</a>
+                        </label>
+                        <i>(注意:执照副本复印件盖公章)</i>
+                        <div>请确保图片清晰,文字可辨并有清晰的红色公章</div>
+                    </div>
+                    <div class="button">
+                        <img src="../images/enter_store/giveup_03.png" alt="" class="giveup fl">
+                        <img src="../images/enter_store/submit_05.png" alt="" class="submit fr">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <script src="../js/common/footer.js"></script>
+    <script src="../js/common/common.js"></script>
+    <script type="text/javascript">
+        addressInit('cmbProvince', 'cmbCity', 'cmbArea');
+        addressInit('mbProvince', 'mbCity', 'mbArea');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+body {
+  font-size: 14px;
+}
+.daohang {
+  background-color: #da0011;
+}
+.daohang li a {
+  color: #ffffff;
+}
+.agreement_main {
+  margin-top: 34px;
+}
+.agreement_main .aside {
+  width: 150px;
+}
+.agreement_main .aside .shenqing {
+  background-color: #e01222;
+  line-height: 37px;
+  color: #ffffff;
+  padding-left: 10px;
+}
+.agreement_main .aside dl {
+  border: 1px solid #dadada;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.agreement_main .aside dl dt {
+  height: 26px;
+  border-bottom: 1px solid #dadada;
+  line-height: 26px;
+  padding-left: 18px;
+  color: #333333;
+  background-color: #eeeeee;
+  margin-bottom: 19px;
+}
+.agreement_main .aside dl dd {
+  padding-left: 32px;
+  margin-bottom: 16px;
+  color: #333333;
+  cursor: pointer;
+}
+.agreement_main .aside dl .changeRed {
+  color: #da0011;
+}
+.agreement_main .xieyi {
+  width: 1029px;
+  border: 1px solid #dadada;
+  padding-bottom: 30px;
+}
+.agreement_main .xieyi > .title {
+  height: 14px;
+  padding: 15px 24px;
+  background-color: #f4f4f4;
+}
+.agreement_main .xieyi > .title a,
+.agreement_main .xieyi > .title span {
+  position: relative;
+  top: -3px;
+}
+.agreement_main .xieyi > .title .changeRed {
+  color: #da0011;
+}
+.agreement_main .xieyi > .title span {
+  margin: 0 26px;
+}
+.agreement_main .xieyi .content .notice {
+  width: 990px;
+  margin: 13px auto;
+  background-color: #fcf8e3;
+  color: #786501;
+  padding-top: 11px;
+  padding-left: 17px;
+  padding-bottom: 10px;
+}
+.agreement_main .xieyi .content .notice .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.agreement_main .xieyi .content .content_main {
+  padding-left: 160px;
+  padding-top: 37px;
+}
+.agreement_main .xieyi .content .content_main div {
+  margin-bottom: 16px;
+}
+.agreement_main .xieyi .content .content_main .msg {
+  color: #333333;
+  font-weight: 700;
+  margin-left: 15px;
+}
+.agreement_main .xieyi .content .content_main div span {
+  width: 110px;
+  height: 31px;
+  display: inline-block;
+  text-align: right;
+  line-height: 31px;
+  margin-right: 10px;
+  color: #555555;
+}
+.agreement_main .xieyi .content .content_main div input,
+.agreement_main .xieyi .content .content_main div #test1,
+.agreement_main .xieyi .content .content_main div #test2,
+.agreement_main .xieyi .content .content_main div textarea {
+  display: inline-block !important;
+  height: 29px;
+  border: 1px solid #dadada;
+  font-size: 14px;
+}
+.agreement_main .xieyi .content .content_main div #test1,
+.agreement_main .xieyi .content .content_main div #test2 {
+  width: 185px;
+  margin-right: 31px;
+}
+.agreement_main .xieyi .content .content_main div select {
+  width: 132px;
+  height: 31px;
+  border: 1px solid #dadada;
+}
+.agreement_main .xieyi .content .content_main div textarea {
+  height: 175px;
+  width: 402px;
+}
+.agreement_main .xieyi .content .content_main .companyName input,
+.agreement_main .xieyi .content .content_main .company_moreAddress input {
+  width: 402px;
+}
+.agreement_main .xieyi .content .content_main .company_tel .quhao {
+  width: 61px;
+}
+.agreement_main .xieyi .content .content_main .company_tel .telNum {
+  width: 153px;
+}
+.agreement_main .xieyi .content .content_main .staffNum input {
+  width: 61px;
+}
+.agreement_main .xieyi .content .content_main .money input,
+.agreement_main .xieyi .content .content_main .linxiName input {
+  width: 153px;
+}
+.agreement_main .xieyi .content .content_main .lianxiTel input,
+.agreement_main .xieyi .content .content_main .email input {
+  width: 244px;
+}
+.agreement_main .xieyi .content .content_main .licenseNum input {
+  width: 402px;
+}
+.agreement_main .xieyi .content .content_main .jingyingfanwei span {
+  position: relative;
+  top: -157px;
+}
+.agreement_main .xieyi .content .content_main .yingyezhizhao {
+  position: relative;
+  margin-bottom: 66px;
+}
+.agreement_main .xieyi .content .content_main .yingyezhizhao input,
+.agreement_main .xieyi .content .content_main .yingyezhizhao a {
+  position: absolute;
+  top: 1px;
+  left: 123px;
+}
+.agreement_main .xieyi .content .content_main .yingyezhizhao input,
+.agreement_main .xieyi .content .content_main .yingyezhizhao a {
+  width: 115px;
+  height: 28px;
+  display: inline-block;
+  background-color: #e4e4e4;
+  line-height: 28px;
+  text-align: center;
+  border: none;
+}
+.agreement_main .xieyi .content .content_main .yingyezhizhao input {
+  z-index: 1;
+  opacity: 0;
+}
+.agreement_main .xieyi .content .content_main .yingyezhizhao i {
+  margin-left: 130px;
+  color: #dc0606;
+}
+.agreement_main .xieyi .content .content_main .yingyezhizhao div {
+  margin-top: 15px;
+  margin-left: 124px;
+}
+.agreement_main .xieyi .content .content_main .button {
+  width: 303px;
+  height: 36px;
+  margin-left: 170px;
+}
