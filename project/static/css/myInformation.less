@@ -1,0 +1,163 @@
+body {
+    font-size: 14px;
+    color: #333333;
+}
+
+.myCollect_main {
+    margin-top: 25px;
+    .main_left {
+        width: 150px;
+        display: inline-block;
+        height: 478px;
+        .member_center {
+            height: 37px;
+            background-color: #e01222;
+            color: #fff;
+            line-height: 37px;
+            padding-left: 10px;
+        }
+        dl {
+            border-left: 1px solid #dadada;
+            border-right: 1px solid #dadada;
+            border-bottom: 1px solid #dadada;
+        }
+        dt {
+            border-top: 1px solid #dadada;
+            border-bottom: 1px solid #dadada;
+            background-color: #eeeeee;
+            color: #333333;
+            padding-left: 18px;
+            line-height: 26px;
+            font-weight: 700;
+            img {
+                margin-left: 50px;
+                position: relative;
+                bottom: 2px;
+            }
+        }
+        dd {
+            padding-left: 32px;
+            color: #333333;
+            line-height: 30px;
+        }
+        dd:last-child {
+            margin-bottom: 18px;
+        }
+        dd:first-child {
+            margin-top: 12px;
+        }
+    }
+    .main_right {
+        width: 1029px;
+        float: right;
+        border: 1px solid #dadada;
+        .title {
+            height: 43px;
+            border-bottom: 1px solid #dadada;
+            background-color: #f4f4f4;
+            display: table-cell;
+            vertical-align: middle;
+            width: 1005px;
+            padding-left: 24px;
+            span {
+                line-height: 44px;
+            }
+            select {
+                width: 115px;
+                height: 31px;
+                border: 1px solid #dadada;
+                float: right;
+                margin-right: 12px;
+                padding-left: 14px;
+                color: #666666;
+                margin-top: 7px;
+            }
+        }
+        .content {
+            padding-top: 17px;
+            >ul {
+                li {
+                    padding: 15px 20px 20px 15px;
+                    width: 957px;
+                    margin: 0 auto;
+                    margin-bottom: 16px;
+                    border: 1px solid #dadada;
+                    div {
+                        color: #2e11aa;
+                        margin-bottom: 20px;
+                    }
+                    i {
+                        float: right;
+                        color: #999999;
+                    }
+                   .overflow {
+                       height: 50px;
+                       margin-top: 20px;
+                       overflow: hidden;
+                       p {
+                        color: #999999;
+                        line-height: 25px;
+                    }
+                   }
+                    .delete {
+                        color: #da0011;
+                    }
+                    .check {
+                        color: #0c08ae;
+                        margin-left: 20px;
+                    }
+                }
+                .msg {
+                    div {
+                        span {
+                            color: #7f7f7f;
+                        }
+                    }
+                }
+            }
+            .page_num {
+                font-size: 12px;
+                margin-top: 30px;
+                margin-right: 12px;
+                >div {
+                    float: right;
+                    margin-bottom: 25px;
+                    >div,
+                    >ul {
+                        float: left;
+                    }
+                    ul {
+                        li {
+                            float: left;
+                            line-height: 26px;
+                            border: 1px solid #dadada;
+                            margin-right: 5px;
+                            a {
+                                display: block;
+                            }
+                        }
+                        .first_page,
+                        .up_page,
+                        .next_page,
+                        .last_page {
+                            a {
+                                padding: 0px 17px;
+                            }
+                        }
+                        .page_number a {
+                            padding: 0px 9px;
+                        }
+                    }
+                    .totle_page {
+                        margin-top: 5px;
+                        margin-right: 13px;
+                    }
+                }
+                .changeRed {
+                    background-color: #e61010;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
