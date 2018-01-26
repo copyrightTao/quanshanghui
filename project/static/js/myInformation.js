@@ -32,6 +32,5 @@ $(function () {
         if (conf) {
             $(this).parent().remove();
         }
-
     })
 })

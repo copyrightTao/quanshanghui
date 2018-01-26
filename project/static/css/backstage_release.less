@@ -71,7 +71,10 @@
                 margin-top: 5px;
             }
         }
-        .price,.star,.kucun,.yongjin {
+        .price,
+        .star,
+        .kucun,
+        .yongjin {
             input {
                 width: 145px;
                 height: 31px;
@@ -98,7 +101,6 @@
             select {
                 width: 338px;
                 height: 31px;
-                
             }
         }
         .image {
@@ -120,6 +122,131 @@
                 width: 365px;
                 color: #c4c4c4;
                 line-height: 25px;
+            }
+        }
+        .goods_def {
+            table {
+                color: #999999;
+                display: inline-block;
+                border: 0px solid #c5c5c5;
+                border-collapse: collapse;
+                th,
+                tr {
+                    height: 31px;
+                    input {
+                        width: 100%
+                    }
+                    td:first-child {
+                        input {
+                            width: 90px;
+                            padding-left: 20px;
+                        }
+                    }
+                    td:nth-child(2) {
+                        input {
+                            width: 380px;
+                            padding-left: 20px;
+                        }
+                    }
+                    td:last-child {
+                        width: 55px;
+                    }
+                }
+                thead {
+                    .kind {
+                        width: 110px;
+                    }
+                    .options {
+                        width: 400px;
+                    }
+                    .add {
+                        width: 55px;
+                        .addTr {
+                            color: #259d00;
+                            display: block;
+                            line-height: 31px;
+                            text-align: center;
+                        }
+                    }
+                }
+                .deleteTr {
+                    color: #cf0000;
+                    display: block;
+                    line-height: 31px;
+                    text-align: center;
+                    width: 50px;
+                }
+            }
+        }
+        .goods_options {
+            table {
+                color: #999999;
+                display: inline-block;
+                border: 0px solid #c5c5c5;
+                border-collapse: collapse;
+                th,
+                tr {
+                    height: 31px;
+                }
+                thead {
+                    .one {
+                        width: 60px;
+                    }
+                    .options {
+                        min-width: 378px;
+                    }
+                    .add {
+                        width: 50px;
+                        .addTr {
+                            color: #259d00;
+                            display: block;
+                            line-height: 31px;
+                            text-align: center;
+                            width: 50px;
+                        }
+                    }
+                }
+                tr {
+                    td:first-child {
+                        min-width: 378px;
+                        max-width: 575px;
+                        padding-left: 10px;
+                    }
+                    td:nth-child(2),
+                    td:nth-child(3),
+                    td:nth-child(4) {
+                        width: 61px;
+                    }
+                    td:last-child {
+                        width: 50px;
+                    }
+                    input {
+                        height: 31px;
+                    }
+                    .deleteTr {
+                        color: #cf0000;
+                        display: block;
+                        line-height: 31px;
+                        text-align: center;
+                    }
+                    input {
+                        height: 31px;
+                        width: 61px;
+                    }
+                    .deleteTr {
+                        color: #cf0000;
+                        display: block;
+                        line-height: 31px;
+                        text-align: center;
+                        width: 50px;
+                    }
+                    select {
+                        height: 25px;
+                        text-align: center;
+                        width: 100px;
+                        margin-right: 10px;
+                    }
+                }
             }
         }
         .description {
@@ -149,8 +276,8 @@
             }
         }
         >img {
-            cursor: pointer;   
-            margin-bottom: 40px;         
+            cursor: pointer;
+            margin-bottom: 40px;
         }
         .giveup {
             margin-left: 350px;
