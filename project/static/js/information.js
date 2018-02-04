@@ -50,7 +50,7 @@ $(function () {
             phone = $('.newAddress .phoneNumber').val(),
                 moreAddress = $('.newAddress .moreAddress').val(),
                 province = $('#cmbProvince').val(),
-                city = $('#cmbCity').val(),
+                city = $('#cmbCity').val() == "市辖区" || $('#cmbCity').val() == "县" ? "" : $('#cmbCity').val(),
                 area = $('#cmbArea').val(),
                 name = $('.user_info .shouhuoren').val();
             $('.lastLi').before(newLi);

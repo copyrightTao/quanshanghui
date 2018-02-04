@@ -104,10 +104,28 @@
             }
         }
         .image {
-            img {
+            >div {
+                display: inline-block;
+                width: 160px;
+                height: 140px;
+                position: relative;
+                input {
+                    width: 160px;
+                    height: 140px;
+                    position: absolute;
+                    top:0px;
+                    left: 0px;
+                    z-index: 1;
+                }
+            }
+            div>img{
                 margin-right: 10px;
                 margin-bottom: 5px;
+                display: inline-block;
+                width: 160px;
+                height: 140px;
             }
+            
             .push {
                 margin-left: 150px;
                 color: #259d00;
@@ -284,4 +302,11 @@
             margin-right: 16px;
         }
     }
+}
+.uploadImg {
+    position: relative;
+    width: 28px;
+    height: 19px;
+    right: 110px;
+    opacity: 0;
 }

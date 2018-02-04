@@ -1,0 +1,101 @@
+body {
+  font-size: 14px;
+}
+.feedback_main {
+  margin-top: 25px;
+}
+.feedback_main .main_left {
+  width: 150px;
+  display: inline-block;
+  height: 478px;
+}
+.feedback_main .main_left .member_center {
+  height: 37px;
+  background-color: #e01222;
+  color: #fff;
+  line-height: 37px;
+  padding-left: 10px;
+}
+.feedback_main .main_left dl {
+  border-left: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+}
+.feedback_main .main_left dt {
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  background-color: #eeeeee;
+  color: #333333;
+  padding-left: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.feedback_main .main_left dt img {
+  margin-left: 50px;
+  position: relative;
+  bottom: 2px;
+}
+.feedback_main .main_left dd {
+  padding-left: 32px;
+  color: #333333;
+  line-height: 30px;
+}
+.feedback_main .main_left dd:last-child {
+  margin-bottom: 18px;
+}
+.feedback_main .main_left dd:first-child {
+  margin-top: 12px;
+}
+.feedback_main .main_right {
+  width: 1029px;
+  border: 1px solid #dadada;
+}
+.feedback_main .main_right .title {
+  padding: 14px 24px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #dadada;
+}
+.feedback_main .main_right .title a {
+  color: #da0011;
+}
+.feedback_main .main_right .content {
+  height: 513px;
+  padding: 43px 205px;
+}
+.feedback_main .main_right .content div span {
+  display: inline-block;
+  width: 45px;
+  text-align: left;
+}
+.feedback_main .main_right .content div input {
+  width: 451px;
+  height: 29px;
+  border: 1px solid #bdbdbd;
+  margin-bottom: 14px;
+  padding-left: 10px;
+}
+.feedback_main .main_right .content div textarea {
+  width: 441px;
+  height: 180px;
+  border: 1px solid #bdbdbd;
+  padding: 10px;
+}
+.feedback_main .main_right .content .biaoti span {
+  position: relative;
+  top: -6px;
+}
+.feedback_main .main_right .content .neirong {
+  margin-bottom: 70px;
+}
+.feedback_main .main_right .content .neirong span {
+  position: relative;
+  top: -185px;
+}
+.feedback_main .main_right .content .button {
+  width: 303px;
+  height: 36px;
+  margin-left: 107px;
+}
+.feedback_main .main_right .content .button img {
+  cursor: pointer;
+}

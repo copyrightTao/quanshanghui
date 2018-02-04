@@ -23,6 +23,7 @@ $(function () {
     $('.right_title .add_address').click(function () {
         $(this).addClass('hide').siblings('a').removeClass('hide');
         $('.newAddress').removeClass('hide').siblings('ul').addClass('hide');
+        $('.newAddress').find('.add').children('img').attr('src', '../images/address_manage/add_05.png');
     })
     $('.right_title .return_list').click(function () {
         returnList($(this));
@@ -47,9 +48,11 @@ $(function () {
         }
     })
     $('.main_right').delegate('.bianji', 'click', function () {
+        $('.right_title').find('.add_address').addClass('hide').siblings('a').removeClass('hide');
         $(this).parent().attr('data-num', 'a');
         $('.newAddress').removeClass('hide').siblings('ul').addClass('hide');
         $('.newAddress .add').children('img').attr('src', '../images/address_manage/xiugai_03.png');
+
 
     })
     $('.newAddress .add').click(function () {
@@ -64,15 +67,12 @@ $(function () {
             alert("手机号码输入不正确");
             return false;
         } else {
-                moreAddress = $('.newAddress .moreAddress').val(),
+            var moreAddress = $('.newAddress .moreAddress').val(),
                 province = $('#cmbProvince').val(),
-                city = $('#cmbCity').val(),
+                city = $('#cmbCity').val() == "市辖区" || $('#cmbCity').val() == "县" ? "" : $('#cmbCity').val(),
                 area = $('#cmbArea').val(),
-                name = $('.user_info .shouhuoren').val();
-            if ($('.main_right ul li[data-num="a"]')) {
-                thisLi = $('.main_right ul li[data-num="a"]');
-            } else {
-                var newLi =
+                name = $('.user_info .shouhuoren').val(),
+                newLi =
                 "<li>" +
                 "<div class='shouhuoren'>" +
                 "<span>收货人:</span>" +
@@ -97,6 +97,9 @@ $(function () {
                 "默认地址" +
                 "</div>" +
                 "</li>";
+            if ($('.main_right ul li[data-num="a"]').attr('data-num')) {
+                thisLi = $('.main_right ul li[data-num="a"]');
+            } else {
                 $('.main_right ul').prepend(newLi);
                 thisLi = $('.main_right li').eq(0);
             }
